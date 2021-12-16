@@ -1,6 +1,6 @@
 Greetings!
 
-I’m @mrbuche, a postdoc at @sandialabs.
+I’m [@mrbuche](https://github.com/mrbuche), a postdoc at [@sandialabs](https://github.com/sandialabs).
 
 I'm generally interested in anything related to mechanics, and I have a particular interest in statistical thermodynamics.
 
