@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v2
       - name: Run a multi-line script
@@ -16,4 +16,4 @@ jobs:
           SCHOLAR_ID: ${{ secrets.SCHOLAR_ID }}
         run: |
           curl "https://serpapi.com/search.json?engine=google_scholar_author&author_id=${SCHOLAR_ID}&api_key=${API_KEY}" -o scholar.json
-          cat scholar.json
+          jq -a author scholar.json
