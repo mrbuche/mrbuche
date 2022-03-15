@@ -21,6 +21,8 @@ jobs:
           curl "https://serpapi.com/search.json?engine=google_scholar_author&author_id=${SCHOLAR_ID}&api_key=${API_KEY}" -o scholar.json
           export NUM_CITES=$(jq '.cited_by."table" | .[] | .citations.all' scholar.json | cut -d "n" -f1 | tr -d \\n)
           curl "https://img.shields.io/badge/citations-${NUM_CITES}-blue?logo=googlescholar" -o badges/googleScholar.svg
-          git add badges
+          git config user.name "GitHub Actions from main branch"
+          git config user.email "<>"
+          git add badges/
           git commit -m 'from main branch'
           git push
