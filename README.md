@@ -1,5 +1,6 @@
 [![website](https://img.shields.io/website?down_message=offline&up_message=online&url=https%3A%2F%2Fmrbuche.github.io)](https://mrbuche.github.io/)
 [![pypi](https://img.shields.io/badge/PyPI-mrbuche-red?color=4B8BBE&logo=pypi&logoColor=FBE072)](https://pypi.org/user/mrbuche/)
+[![conda](https://img.shields.io/badge/Anaconda-mrbuche-red?color=3EB049&logo=anaconda&logoColor=3EB049)](https://anaconda.org/mrbuche)
 [![xbox](https://img.shields.io/badge/Xbox-mrbuche88-%23107C10?logo=xbox)](https://account.xbox.com/en-us/profile?gamertag=mrbuche88)
 
 Postdoctoral Appointee  
