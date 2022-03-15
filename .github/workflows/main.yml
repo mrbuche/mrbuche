@@ -12,5 +12,5 @@ jobs:
       - uses: actions/checkout@v2
       - name: Run a multi-line script
         run: |
-          curl "https://serpapi.com/search.json?engine=google_scholar_author&author_id=${SCHOLAR_ID}&api_key=${API_KEY}" -o scholar.json
+          curl https://serpapi.com/search.json?engine=google_scholar_author&author_id=${SCHOLAR_ID}&api_key=${API_KEY} -o scholar.json
           cat scholar.json
