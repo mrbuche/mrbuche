@@ -1,5 +1,7 @@
 name: main
 on:
+  schedule:
+    - cron: "0 0 * * *"
   push:
     branches: [ main ]
   pull_request:
@@ -23,5 +25,5 @@ jobs:
           git config user.name "GitHub Actions from main branch"
           git config user.email "<>"
           git add badges/
-          git commit -m 'from main branch'
+          git commit --allow-empty -m 'from main branch'
           git push
