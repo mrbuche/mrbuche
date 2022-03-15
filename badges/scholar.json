@@ -1,0 +1,297 @@
+{
+  "search_metadata": {
+    "id": "623126cbf218017d2ae71bd9",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/6a9294f6c1bd8ed4/623126cbf218017d2ae71bd9.json",
+    "created_at": "2022-03-15 23:52:43 UTC",
+    "processed_at": "2022-03-15 23:52:43 UTC",
+    "google_scholar_author_url": "https://scholar.google.com/citations?user=YJ8Ei6AAAAAJ&hl=en",
+    "raw_html_file": "https://serpapi.com/searches/6a9294f6c1bd8ed4/623126cbf218017d2ae71bd9.html",
+    "total_time_taken": 1.02
+  },
+  "search_parameters": {
+    "engine": "google_scholar_author",
+    "author_id": "YJ8Ei6AAAAAJ",
+    "hl": "en"
+  },
+  "author": {
+    "name": "Michael Buche",
+    "affiliations": "Sandia National Laboratories",
+    "email": "Verified email at sandia.gov",
+    "website": "http://mrbuche.github.io/",
+    "interests": [
+      {
+        "title": "Mechanics",
+        "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:mechanics",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Amechanics"
+      },
+      {
+        "title": "Statistical Thermodynamics",
+        "link": "https://scholar.google.com/citations?view_op=search_authors&hl=en&mauthors=label:statistical_thermodynamics",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Astatistical_thermodynamics"
+      }
+    ],
+    "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=YJ8Ei6AAAAAJ&citpid=3"
+  },
+  "articles": [
+    {
+      "title": "Bridging experiments and theory: isolating the effects of metal–ligand interactions on viscoelasticity of reversible polymer networks",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YJ8Ei6AAAAAJ&citation_for_view=YJ8Ei6AAAAAJ:IjCSPb-OGe4C",
+      "citation_id": "YJ8Ei6AAAAAJ:IjCSPb-OGe4C",
+      "authors": "X Zhang, Y Vidavsky, S Aharonovich, SJ Yang, MR Buche, ...",
+      "publication": "Soft Matter 16 (37), 8591-8601, 2020",
+      "cited_by": {
+        "value": 9,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12958867339773828326",
+        "serpapi_link": "https://serpapi.com/search.json?cites=12958867339773828326&engine=google_scholar&hl=en",
+        "cites_id": "12958867339773828326"
+      },
+      "year": "2020"
+    },
+    {
+      "title": "Force-mediated molecule release from double network hydrogels",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YJ8Ei6AAAAAJ&citation_for_view=YJ8Ei6AAAAAJ:YsMSGLbcyi4C",
+      "citation_id": "YJ8Ei6AAAAAJ:YsMSGLbcyi4C",
+      "authors": "P Jayathilaka, T Molley, Y Huang, S Islam, MR Buche, M Silberstein, ...",
+      "publication": "Chemical Communications 57, 8484-8487, 2021",
+      "cited_by": {
+        "value": 8,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17332904402979970974,8621532533412445333",
+        "serpapi_link": "https://serpapi.com/search.json?cites=17332904402979970974%2C8621532533412445333&engine=google_scholar&hl=en",
+        "cites_id": "17332904402979970974,8621532533412445333"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Tuning the mechanical properties of metallopolymers via ligand interactions: a combined experimental and theoretical study",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YJ8Ei6AAAAAJ&citation_for_view=YJ8Ei6AAAAAJ:d1gkVwhDpl0C",
+      "citation_id": "YJ8Ei6AAAAAJ:d1gkVwhDpl0C",
+      "authors": "Y Vidavsky, MR Buche, ZM Sparrow, X Zhang, SJ Yang, RA DiStasio Jr, ...",
+      "publication": "Macromolecules 53 (6), 2021-2030, 2020",
+      "cited_by": {
+        "value": 8,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13858321362381021641",
+        "serpapi_link": "https://serpapi.com/search.json?cites=13858321362381021641&engine=google_scholar&hl=en",
+        "cites_id": "13858321362381021641"
+      },
+      "year": "2020"
+    },
+    {
+      "title": "Chain breaking in the statistical mechanical constitutive theory of polymer networks",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YJ8Ei6AAAAAJ&citation_for_view=YJ8Ei6AAAAAJ:eQOLeE2rZwMC",
+      "citation_id": "YJ8Ei6AAAAAJ:eQOLeE2rZwMC",
+      "authors": "MR Buche, MN Silberstein",
+      "publication": "Journal of the Mechanics and Physics of Solids 156, 04593, 2021",
+      "cited_by": {
+        "value": 7,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6159047480387821885",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6159047480387821885&engine=google_scholar&hl=en",
+        "cites_id": "6159047480387821885"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "Statistical mechanical constitutive theory of polymer networks: the inextricable links between distribution, behavior, and ensemble",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YJ8Ei6AAAAAJ&citation_for_view=YJ8Ei6AAAAAJ:qjMakFHDy7sC",
+      "citation_id": "YJ8Ei6AAAAAJ:qjMakFHDy7sC",
+      "authors": "MR Buche, MN Silberstein",
+      "publication": "Physical Review E 102, 012501, 2020",
+      "cited_by": {
+        "value": 5,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2826455949741153455",
+        "serpapi_link": "https://serpapi.com/search.json?cites=2826455949741153455&engine=google_scholar&hl=en",
+        "cites_id": "2826455949741153455"
+      },
+      "year": "2020"
+    },
+    {
+      "title": "Fundamental Theories for the Mechanics of Polymer Chains and Networks",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YJ8Ei6AAAAAJ&citation_for_view=YJ8Ei6AAAAAJ:ufrVoPGSRksC",
+      "citation_id": "YJ8Ei6AAAAAJ:ufrVoPGSRksC",
+      "authors": "MR Buche",
+      "publication": "Cornell University, 2021",
+      "cited_by": {
+        "value": 1,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7130874293468828467",
+        "serpapi_link": "https://serpapi.com/search.json?cites=7130874293468828467&engine=google_scholar&hl=en",
+        "cites_id": "7130874293468828467"
+      },
+      "year": "2021"
+    },
+    {
+      "title": "On freely-jointed chain models with flexible links",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YJ8Ei6AAAAAJ&citation_for_view=YJ8Ei6AAAAAJ:_FxGoFyzp5QC",
+      "citation_id": "YJ8Ei6AAAAAJ:_FxGoFyzp5QC",
+      "authors": "MR Buche, MN Silberstein, SJ Grutzik",
+      "publication": "arXiv preprint arXiv:2203.05421, 2022",
+      "cited_by": {
+        "value": null,
+        "link": "https://scholar.google.com"
+      },
+      "year": "2022"
+    },
+    {
+      "title": "Quantum Chemistry Simulations for Dynamic Network Polymers",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YJ8Ei6AAAAAJ&citation_for_view=YJ8Ei6AAAAAJ:u5HHmVD_uO8C",
+      "citation_id": "YJ8Ei6AAAAAJ:u5HHmVD_uO8C",
+      "authors": "M Buche, Z Sparrow, Y Vidavsky, R Distasio, M Silberstein",
+      "publication": "APS March Meeting Abstracts 2019, F55. 008, 2019",
+      "cited_by": {
+        "value": null,
+        "link": "https://scholar.google.com"
+      },
+      "year": "2019"
+    }
+  ],
+  "cited_by": {
+    "table": [
+      {
+        "citations": {
+          "all": 38,
+          "since_2017": 38
+        }
+      },
+      {
+        "h_index": {
+          "all": 5,
+          "since_2017": 5
+        }
+      },
+      {
+        "i10_index": {
+          "all": 0,
+          "since_2017": 0
+        }
+      }
+    ],
+    "graph": [
+      {
+        "year": 2020,
+        "citations": 2
+      },
+      {
+        "year": 2021,
+        "citations": 30
+      },
+      {
+        "year": 2022,
+        "citations": 6
+      }
+    ]
+  },
+  "public_access": {
+    "link": "https://scholar.google.com/citations?view_op=list_mandates&hl=en&user=YJ8Ei6AAAAAJ",
+    "available": 3,
+    "not_available": 0
+  },
+  "co_authors": [
+    {
+      "name": "Meredith Silberstein",
+      "link": "https://scholar.google.com/citations?user=3O6-TbcAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=3O6-TbcAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "3O6-TbcAAAAJ",
+      "affiliations": "Associate Professor of Mechanical and Aerospace Engineering, Cornell University",
+      "email": "Verified email at cornell.edu",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=3O6-TbcAAAAJ&citpid=1"
+    },
+    {
+      "name": "Yuval Vidavsky",
+      "link": "https://scholar.google.com/citations?user=XGzva2sAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=XGzva2sAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "XGzva2sAAAAJ",
+      "affiliations": "Soreq NRC",
+      "email": "Verified email at soreq.gov.il",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=XGzva2sAAAAJ&citpid=9"
+    },
+    {
+      "name": "Xinyue(Joy) Zhang",
+      "link": "https://scholar.google.com/citations?user=dnbEXKsAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=dnbEXKsAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "dnbEXKsAAAAJ",
+      "affiliations": "Cornell University",
+      "email": "Verified email at cornell.edu",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=dnbEXKsAAAAJ&citpid=8"
+    },
+    {
+      "name": "Robert A. DiStasio Jr.",
+      "link": "https://scholar.google.com/citations?user=_eNCkt0AAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=_eNCkt0AAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "_eNCkt0AAAAJ",
+      "affiliations": "Assistant Professor, Chemistry and Chemical Biology, Cornell University",
+      "email": "Verified email at cornell.edu",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=_eNCkt0AAAAJ&citpid=5"
+    },
+    {
+      "name": "Kristopher Kilian",
+      "link": "https://scholar.google.com/citations?user=ylhxODQAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=ylhxODQAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "ylhxODQAAAAJ",
+      "affiliations": "School of Materials Science and Engineering, School of Chemistry, UNSW Sydney",
+      "email": "Verified email at unsw.edu.au",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=ylhxODQAAAAJ&citpid=2"
+    },
+    {
+      "name": "Md Shariful Islam",
+      "link": "https://scholar.google.com/citations?user=4LkoeKsAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=4LkoeKsAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "4LkoeKsAAAAJ",
+      "affiliations": "Scientia PhD Scholar, University of New South Wales, Australia",
+      "email": "Verified email at student.unsw.edu.au",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=4LkoeKsAAAAJ&citpid=3"
+    },
+    {
+      "name": "Professor Jamie J. Kruzic",
+      "link": "https://scholar.google.com/citations?user=KexUrNcAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=KexUrNcAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "KexUrNcAAAAJ",
+      "affiliations": "University of New South Wales (UNSW Sydney), Deputy Head, Mechanical and Manufacturing Engineering",
+      "email": "Verified email at unsw.edu.au",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=KexUrNcAAAAJ&citpid=2"
+    },
+    {
+      "name": "Charles Diesendruck",
+      "link": "https://scholar.google.com/citations?user=dpuDLN4AAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=dpuDLN4AAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "dpuDLN4AAAAJ",
+      "affiliations": "Associate Professor at Schulich Faculty of Chemistry, Technion",
+      "email": "Verified email at technion.ac.il",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=dpuDLN4AAAAJ&citpid=2"
+    },
+    {
+      "name": "Sinai Aharonovich",
+      "link": "https://scholar.google.com/citations?user=uePoivwAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=uePoivwAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "uePoivwAAAAJ",
+      "affiliations": "Senior Researcher at the Technion, Israel Institute of Technology",
+      "email": "Verified email at stanford.edu",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=uePoivwAAAAJ&citpid=2"
+    },
+    {
+      "name": "Thomas Molley",
+      "link": "https://scholar.google.com/citations?user=uo-9F2cAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=uo-9F2cAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "uo-9F2cAAAAJ",
+      "affiliations": "University of New South Wales",
+      "email": "Verified email at student.unsw.edu.au",
+      "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=uo-9F2cAAAAJ&citpid=5"
+    },
+    {
+      "name": "Yuwan Huang",
+      "link": "https://scholar.google.com/citations?user=B1FYvhcAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=B1FYvhcAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "B1FYvhcAAAAJ",
+      "affiliations": "PhD Candidate at School of Mechanical and Menufacturing Engineering,UNSW",
+      "email": "Verified email at unsw.edu.au",
+      "thumbnail": "https://scholar.google.com/citations/images/avatar_scholar_56.png"
+    },
+    {
+      "name": "Scott Grutzik",
+      "link": "https://scholar.google.com/citations?user=s4t-UXQAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=s4t-UXQAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "s4t-UXQAAAAJ",
+      "affiliations": "Sandia National Laboratories",
+      "email": "Verified email at sandia.gov",
+      "thumbnail": "https://scholar.google.com/citations/images/avatar_scholar_56.png"
+    }
+  ]
+}
