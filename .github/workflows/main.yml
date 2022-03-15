@@ -15,6 +15,11 @@ jobs:
           API_KEY: ${{ secrets.API_KEY }}
           SCHOLAR_ID: ${{ secrets.SCHOLAR_ID }}
         run: |
+          mkdir badges/
           curl "https://serpapi.com/search.json?engine=google_scholar_author&author_id=${SCHOLAR_ID}&api_key=${API_KEY}" -o scholar.json
-          jq '.cited_by."table" | .[] | .citations.all' scholar.json | cut -d "n" -f1 | tr -d \\n
-          
+          export NUM_CITES=$(jq '.cited_by."table" | .[] | .citations.all' scholar.json | cut -d "n" -f1 | tr -d \\n)
+          curl "https://img.shields.io/badge/citations-${NUM_CITES}-blue?logo=googlescholar" -o badges/googleScholar.svg
+      - uses: actions/upload-artifact@v3
+        with:
+          name: badges
+          path: badges/
