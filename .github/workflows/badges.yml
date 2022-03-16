@@ -19,8 +19,10 @@ jobs:
           API_KEY: ${{ secrets.API_KEY }}
           SCHOLAR_ID: ${{ secrets.SCHOLAR_ID }}
         run: |
-          export NUM_CITES=$(jq '.cited_by."table" | .[] | .citations.all' data/google-scholar.json | cut -d "n" -f1 | tr -d \\n)
-          curl "https://img.shields.io/badge/Google%20Scholar-${NUM_CITES}%20citations-red?color=4285F4&logoColor=4285F4&logo=googlescholar" -o badges/google-scholar.svg
+          export NUM_CITES_TOTAL=$(jq '.cited_by."table" | .[] | .citations.all' data/google-scholar.json | cut -d "n" -f1 | tr -d \\n)
+          curl "https://img.shields.io/badge/Google%20Scholar-${NUM_CITES_TOTAL}%20citations-red?color=4285F4&logoColor=4285F4&logo=googlescholar" -o badges/google-scholar.svg
+          export NUM_CITES_0=$(jq '.articles."table" | .[] | .citations.all' data/google-scholar.json | cut -d "n" -f1 | tr -d \\n)
+          curl "https://img.shields.io/badge/Google%20Scholar-${NUM_CITES_0}%20citations-red?color=4285F4&logoColor=4285F4&logo=googlescholar" -o badges/google-scholar.svg
           git config user.name "GitHub Actions"
           git config user.email "<>"
           git add badges/
