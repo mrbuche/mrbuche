@@ -1,4 +1,4 @@
-name: google-scholar
+name: data
 on:
   schedule:
     - cron: "0 0 * * *"
@@ -10,14 +10,16 @@ jobs:
       - uses: actions/checkout@v2
         with:
           ref: data
-      - name: update google scholar data
+      - name: update data
         env:
           API_KEY: ${{ secrets.API_KEY }}
           SCHOLAR_ID: ${{ secrets.SCHOLAR_ID }}
         run: |
+          mkdir -p data/
           curl "https://serpapi.com/search.json?engine=google_scholar_author&author_id=${SCHOLAR_ID}&api_key=${API_KEY}" -o data/google-scholar.json
+          curl "https://arxiv.org/search/?searchtype=author&query=Buche%2C+M+R" -o data/arvix-search.html
           git config user.name "GitHub Actions"
           git config user.email "<>"
           git add data/
-          git commit --allow-empty -m 'update google scholar data'
+          git commit --allow-empty -m 'update data'
           git push
