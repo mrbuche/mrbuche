@@ -21,7 +21,7 @@ jobs:
         run: |
           export NUM_CITES_TOTAL=$(jq '.cited_by."table" | .[] | .citations.all' data/google-scholar.json | cut -d "n" -f1 | tr -d \\n)
           curl "https://img.shields.io/badge/Google%20Scholar-${NUM_CITES_TOTAL}%20citations-red?color=4285F4&logoColor=4285F4&logo=googlescholar" -o badges/google-scholar.svg
-          exprot NUM_PREPRINTS=$(grep "Showing 1&ndash;" data/arvix-search.html | cut -d ';' -f2 | cut -d ' ' -f1)
+          export NUM_PREPRINTS=$(grep "Showing 1&ndash;" data/arvix-search.html | cut -d ';' -f2 | cut -d ' ' -f1)
           curl "https://img.shields.io/badge/arXiv-${NUM_PREPRINTS}%20preprints-red?color=b31b1b&logoColor=b31b1b&logo=arxiv" -o badges/arxiv.svg
           git config user.name "GitHub Actions"
           git config user.email "<>"
