@@ -15,8 +15,7 @@ jobs:
           API_KEY: ${{ secrets.API_KEY }}
           SCHOLAR_ID: ${{ secrets.SCHOLAR_ID }}
         run: |
-          mkdir -d data/
-          curl "https://serpapi.com/search.json?engine=google_scholar_author&author_id=${SCHOLAR_ID}&api_key=${API_KEY}" -o data/scholar.json
+          curl "https://serpapi.com/search.json?engine=google_scholar_author&author_id=${SCHOLAR_ID}&api_key=${API_KEY}" -o data/google-scholar.json
           git config user.name "GitHub Actions"
           git config user.email "<>"
           git add data/
