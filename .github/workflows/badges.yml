@@ -21,9 +21,8 @@ jobs:
         run: |
           export NUM_CITES_TOTAL=$(jq '.cited_by."table" | .[] | .citations.all' raw/google-scholar.json | cut -d "n" -f1 | tr -d \\n)
           curl "https://img.shields.io/badge/Google%20Scholar-${NUM_CITES_TOTAL}%20citations-red?color=4285F4&logoColor=4285F4&logo=googlescholar" -o badges/google-scholar.svg
-          # change this into loop over all articles and name badges accordingly
-          export NUM_CITES_0=$(jq '.articles | .[] | select(.citation_id=="YJ8Ei6AAAAAJ:ufrVoPGSRksC") | .cited_by.value' raw/google-scholar.json)
-          curl "https://img.shields.io/badge/Google%20Scholar-${NUM_CITES_0}%20citations-red?color=4285F4&logoColor=4285F4&logo=googlescholar" -o badges/google-scholar-0.svg
+          jq '.articles | .[] | .citation_id' raw/google-scholar.json | cut -d '"' -f2 > article_ids.txt
+          while read p; do export NUM_CITES=$(jq '.articles | .[] | select(.citation_id=='\"$p\"') | .cited_by.value' raw/google-scholar.json); if [ "$NUM_CITES" == "null" ]; then export NUM_CITES=$(echo "0"); fi; curl "https://img.shields.io/badge/Google%20Scholar-${NUM_CITES_0}%20citations-red?color=4285F4&logoColor=4285F4&logo=googlescholar" -o badges/google-scholar-"$p".svg; done < article_ids.txt
       - name: arXiv
         run: |
           export NUM_PREPRINTS=$(grep "Showing 1&ndash;" raw/arvix-search.html | cut -d ';' -f2 | cut -d ' ' -f1)
