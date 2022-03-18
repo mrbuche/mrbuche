@@ -14,19 +14,19 @@ jobs:
       - uses: actions/checkout@v2
         with:
           ref: data
-      - name: google-scholar
+      - name: google scholar
         env:
           API_KEY: ${{ secrets.API_KEY }}
           SCHOLAR_ID: ${{ secrets.SCHOLAR_ID }}
         run: |
-          export NUM_CITES_TOTAL=$(jq '.cited_by."table" | .[] | .citations.all' data/google-scholar.json | cut -d "n" -f1 | tr -d \\n)
+          export NUM_CITES_TOTAL=$(jq '.cited_by."table" | .[] | .citations.all' raw/google-scholar.json | cut -d "n" -f1 | tr -d \\n)
           curl "https://img.shields.io/badge/Google%20Scholar-${NUM_CITES_TOTAL}%20citations-red?color=4285F4&logoColor=4285F4&logo=googlescholar" -o badges/google-scholar.svg
           # change this into loop over all articles and name badges accordingly
-          export NUM_CITES_0=$(jq '.articles | .[] | select(.citation_id=="YJ8Ei6AAAAAJ:ufrVoPGSRksC") | .cited_by.value' data/google-scholar.json)
+          export NUM_CITES_0=$(jq '.articles | .[] | select(.citation_id=="YJ8Ei6AAAAAJ:ufrVoPGSRksC") | .cited_by.value' raw/google-scholar.json)
           curl "https://img.shields.io/badge/Google%20Scholar-${NUM_CITES_0}%20citations-red?color=4285F4&logoColor=4285F4&logo=googlescholar" -o badges/google-scholar-0.svg
-      - name: arxiv
+      - name: arXiv
         run: |
-          export NUM_PREPRINTS=$(grep "Showing 1&ndash;" data/arvix-search.html | cut -d ';' -f2 | cut -d ' ' -f1)
+          export NUM_PREPRINTS=$(grep "Showing 1&ndash;" raw/arvix-search.html | cut -d ';' -f2 | cut -d ' ' -f1)
           curl "https://img.shields.io/badge/arXiv-${NUM_PREPRINTS}%20preprints-red?color=b31b1b&logoColor=b31b1b&logo=data:image/png;base64,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" -o badges/arxiv.svg
       - name: push
         run: |
