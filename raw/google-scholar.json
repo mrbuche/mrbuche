@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "6234b53f3944b094a61bfacf",
+    "id": "62351eadd036a7e55a8445b2",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/6a9294f6c1bd8ed4/6234b53f3944b094a61bfacf.json",
-    "created_at": "2022-03-18 16:37:19 UTC",
-    "processed_at": "2022-03-18 16:37:19 UTC",
+    "json_endpoint": "https://serpapi.com/searches/6a9294f6c1bd8ed4/62351eadd036a7e55a8445b2.json",
+    "created_at": "2022-03-19 00:07:09 UTC",
+    "processed_at": "2022-03-19 00:07:09 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=YJ8Ei6AAAAAJ&hl=en",
-    "raw_html_file": "https://serpapi.com/searches/6a9294f6c1bd8ed4/6234b53f3944b094a61bfacf.html",
-    "total_time_taken": 0.91
+    "raw_html_file": "https://serpapi.com/searches/6a9294f6c1bd8ed4/62351eadd036a7e55a8445b2.html",
+    "total_time_taken": 2.25
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -41,7 +41,7 @@
       "authors": "X Zhang, Y Vidavsky, S Aharonovich, SJ Yang, MR Buche, ...",
       "publication": "Soft Matter 16 (37), 8591-8601, 2020",
       "cited_by": {
-        "value": 9,
+        "value": 10,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12958867339773828326",
         "serpapi_link": "https://serpapi.com/search.json?cites=12958867339773828326&engine=google_scholar&hl=en",
         "cites_id": "12958867339773828326"
@@ -147,8 +147,8 @@
     "table": [
       {
         "citations": {
-          "all": 38,
-          "since_2017": 38
+          "all": 39,
+          "since_2017": 39
         }
       },
       {
@@ -159,8 +159,8 @@
       },
       {
         "i10_index": {
-          "all": 0,
-          "since_2017": 0
+          "all": 1,
+          "since_2017": 1
         }
       }
     ],
@@ -175,7 +175,7 @@
       },
       {
         "year": 2022,
-        "citations": 6
+        "citations": 7
       }
     ]
   },
