@@ -15,7 +15,7 @@ jobs:
         with:
           ref: data
       - name: github
-        run:|
+        run: |
           NUM_REPOS=$(grep -o '$PATTERN' raw/github-repos.json | wc -l)
           curl "https://img.shields.io/badge/GitHub-${NUM_REPOS}%20repositories-red?color=6e5494&logo=github" -o badges/github-repos-count.svg
       - name: google scholar
