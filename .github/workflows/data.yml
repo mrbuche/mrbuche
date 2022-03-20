@@ -16,6 +16,7 @@ jobs:
           SCHOLAR_ID: ${{ secrets.SCHOLAR_ID }}
         run: |
           mkdir -p data/
+          curl -H "Accept: application/vnd.github.v3+json" https://api.github.com/users/mrbuche/repos -o raw/github-repos.json
           curl "https://serpapi.com/search.json?engine=google_scholar_author&author_id=${SCHOLAR_ID}&api_key=${API_KEY}" -o raw/google-scholar.json
           curl "https://arxiv.org/search/?searchtype=author&query=Buche%2C+M+R" -o raw/arvix-search.html
           curl "https://pypi.org/user/mrbuche/" -o raw/pypi-user.html
