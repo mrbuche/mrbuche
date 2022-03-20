@@ -19,6 +19,8 @@ jobs:
           curl "https://serpapi.com/search.json?engine=google_scholar_author&author_id=${SCHOLAR_ID}&api_key=${API_KEY}" -o raw/google-scholar.json
           curl "https://arxiv.org/search/?searchtype=author&query=Buche%2C+M+R" -o raw/arvix-search.html
           curl "https://pypi.org/user/mrbuche/" -o raw/pypi-user.html
+          curl "https://anaconda.org/mrbuche" -o raw/anaconda-user.html
+          curl "https://hub.docker.com/u/mrbuche" -o raw/docker-hub-user.html
           git config user.name "GitHub Actions"
           git config user.email "<>"
           git add raw/
