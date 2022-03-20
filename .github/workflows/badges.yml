@@ -41,6 +41,7 @@ jobs:
         run: |
           export NUM_PACKAGES=$(grep "View all" raw/anaconda-user.html | cut -d "(" -f2 | cut -d ")" -f1)
           curl "https://img.shields.io/badge/Anaconda-${NUM_PACKAGES}%20packages-red?color=3EB049&logo=anaconda&logoColor=3EB049)" -o badges/anaconda-packages-count.svg
+          curl -H "Accept: application/vnd.github.v3+json" https://api.github.com/users/mrbuche/repos -o badges/test.json
       - name: push
         run: |
           git config user.name "GitHub Actions"
