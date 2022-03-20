@@ -37,6 +37,10 @@ jobs:
         run: |
           export NUM_PROJECTS=$(grep -P " projects$" raw/pypi-user.html | cut -d " " -f13)
           curl "https://img.shields.io/badge/PyPI-${NUM_PROJECTS}%20projects-red?color=4B8BBE&logo=pypi&logoColor=FBE072" -o badges/pypi-projects-count.svg
+      - name: Anaconda
+        run: |
+          export NUM_PACKAGES=$(grep "View all" raw/anaconda-user.html | cut -d "(" -f2 | cut -d ")" -f1)
+          curl "https://img.shields.io/badge/Anaconda-${NUM_PACKAGES}%20packages-red?color=3EB049&logo=anaconda&logoColor=3EB049)" -o badges/anaconda-packages-count.svg
       - name: push
         run: |
           git config user.name "GitHub Actions"
