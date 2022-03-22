@@ -50,6 +50,7 @@ jobs:
           export NUM_PROJECTS=$(echo "1")
           curl "https://img.shields.io/badge/Read%20the%20Docs-${NUM_PROJECTS}%20projects-red?color=8ca1af&logo=readthedocs&logoColor=8ca1af" -o badges/rtd-projects-count.svg
       - name: push
+        run: |
           git config user.name "GitHub Actions"
           git config user.email "<>"
           git add badges/
