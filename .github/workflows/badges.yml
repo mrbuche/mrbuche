@@ -44,7 +44,7 @@ jobs:
       - name: Anaconda
         run: |
           export NUM_PACKAGES=$(grep "View all" raw/anaconda-user.html | cut -d "(" -f2 | cut -d ")" -f1)
-          # curl "https://img.shields.io/badge/Anaconda-${NUM_PACKAGES}%20packages-red?color=3EB049&logo=anaconda&logoColor=3EB049" -o badges/anaconda-packages-count.svg
+          curl "https://img.shields.io/badge/Anaconda-${NUM_PACKAGES}%20packages-red?color=3EB049&logo=anaconda&logoColor=3EB049" -o badges/anaconda-packages-count.svg
       - name: Read the Docs
         run: |
           export NUM_PROJECTS=$(echo "1")
