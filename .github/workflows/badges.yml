@@ -14,11 +14,11 @@ jobs:
       - uses: actions/checkout@v2
         with:
           ref: data
-      - name: github
+      - name: GitHub
         run: |
           NUM_REPOS=$(grep -o 'default_branch' raw/github-repos.json | wc -l)
           curl "https://img.shields.io/badge/GitHub-${NUM_REPOS}%20repositories-red?color=6e5494&logo=github" -o badges/github-repos-count.svg
-      - name: google scholar
+      - name: Google Scholar
         env:
           API_KEY: ${{ secrets.API_KEY }}
           SCHOLAR_ID: ${{ secrets.SCHOLAR_ID }}
@@ -45,8 +45,11 @@ jobs:
         run: |
           export NUM_PACKAGES=$(grep "View all" raw/anaconda-user.html | cut -d "(" -f2 | cut -d ")" -f1)
           curl "https://img.shields.io/badge/Anaconda-${NUM_PACKAGES}%20packages-red?color=3EB049&logo=anaconda&logoColor=3EB049)" -o badges/anaconda-packages-count.svg
-      - name: push
+      - name: Read the Docs
         run: |
+          export NUM_PROJECTS=$(echo "1")
+          curl "https://img.shields.io/badge/Read%20the%20Docs-${NUM_PROJECTS}%20projects-red?color=8ca1af&logo=readthedocs&logoColor=8ca1af" -o badges/rtd-projects-count.svg
+      - name: push
           git config user.name "GitHub Actions"
           git config user.email "<>"
           git add badges/
