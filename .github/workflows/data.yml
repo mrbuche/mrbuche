@@ -22,6 +22,7 @@ jobs:
           curl "https://pypi.org/user/mrbuche/" -o raw/pypi-user.html
           curl "https://anaconda.org/mrbuche" -o raw/anaconda-user.html
           curl "https://hub.docker.com/u/mrbuche" -o raw/docker-hub-user.html
+          curl "https://readthedocs.org/profiles/mrbuche/"-o raw/read-the-docs-user.html
           git config user.name "GitHub Actions"
           git config user.email "<>"
           git add raw/
