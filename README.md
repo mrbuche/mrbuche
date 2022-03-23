@@ -8,7 +8,7 @@
 [![scholar](https://raw.githubusercontent.com/mrbuche/mrbuche/data/badges/google-scholar-citations-total.svg)](https://scholar.google.com/citations?user=YJ8Ei6AAAAAJ&hl)
 [![arXiv](https://raw.githubusercontent.com/mrbuche/mrbuche/data/badges/arxiv-preprints-count.svg)](https://arxiv.org/search/?searchtype=author&query=Buche%2C+M+R)
 [![YouTube Channel Views](https://img.shields.io/youtube/channel/views/UCb_NjvAO66L3vUPT1e7x7ag?color=ff0000&label=Views&logo=youtube&logoColor=ff0000&style=flat)](https://youtube.com/channel/UCb_NjvAO66L3vUPT1e7x7ag)
-[![xbox](https://img.shields.io/badge/Xbox-mrbuche88-%23107C10?logo=xbox)](https://account.xbox.com/en-us/profile?gamertag=mrbuche88)
+[![xbox](https://raw.githubusercontent.com/mrbuche/mrbuche/data/badges/xbox-gamerscore.svg)](https://account.xbox.com/en-us/profile?gamertag=mrbuche88)
 
 Postdoctoral Appointee  
 Computational Solid Mechanics and Structural Dynamics  
