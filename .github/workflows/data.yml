@@ -14,6 +14,7 @@ jobs:
         env:
           API_KEY: ${{ secrets.API_KEY }}
           SCHOLAR_ID: ${{ secrets.SCHOLAR_ID }}
+          OPENXBL_API_KEY: ${{ secrets.OPENXBL_API_KEY }}
         run: |
           mkdir -p data/
           curl -H "Accept: application/vnd.github.v3+json" https://api.github.com/users/mrbuche/repos -o raw/github-repos.json
@@ -23,6 +24,7 @@ jobs:
           curl "https://anaconda.org/mrbuche" -o raw/anaconda-user.html
           curl "https://hub.docker.com/u/mrbuche" -o raw/docker-hub-user.html
           curl "https://readthedocs.org/profiles/mrbuche/" -o raw/read-the-docs-user.html
+          curl --header "X-Authorization: ${OPENXBL_API_KEY}" "https://xbl.io/api/v2/account" -o raw/xbox-account.json
           git config user.name "GitHub Actions"
           git config user.email "<>"
           git add raw/
