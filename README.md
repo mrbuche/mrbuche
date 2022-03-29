@@ -10,8 +10,8 @@
 [![YouTube Channel Views](https://img.shields.io/youtube/channel/views/UCb_NjvAO66L3vUPT1e7x7ag?color=ff0000&label=Views&logo=youtube&logoColor=ff0000&style=flat)](https://youtube.com/channel/UCb_NjvAO66L3vUPT1e7x7ag)
 [![xbox](https://raw.githubusercontent.com/mrbuche/mrbuche/data/badges/xbox-gamerscore.svg)](https://account.xbox.com/en-us/profile?gamertag=mrbuche88)
 
-Senior Member of the Technical Staff  
 R&D S&E, Computer Science  
+Senior Member of the Technical Staff  
 Computational Solid Mechanics and Structural Dynamics  
 [Sandia National Laboratories](https://www.sandia.gov)  
 Albuquerque, New Mexico, United States of America
