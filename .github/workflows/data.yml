@@ -24,7 +24,10 @@ jobs:
           curl "https://anaconda.org/mrbuche" -o raw/anaconda-user.html
           curl "https://hub.docker.com/v2/repositories/mrbuche/" -o raw/docker-hub-user.json
           curl "https://readthedocs.org/profiles/mrbuche/" -o raw/read-the-docs-user.html
-          curl --header "X-Authorization: ${OPENXBL_API_KEY}" "https://xbl.io/api/v2/account" -o raw/xbox-account.json
+          rm raw/xbox-account.json
+          touch raw/xbox-account.json
+          while [ $(stat -c %s xbox-account.json) == '0' ]; do 
+            curl --header "X-Authorization: ${OPENXBL_API_KEY}" "https://xbl.io/api/v2/account" -o raw/xbox-account.json
           git config user.name "GitHub Actions"
           git config user.email "<>"
           git add raw/
