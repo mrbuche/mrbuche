@@ -26,7 +26,7 @@ jobs:
           curl "https://readthedocs.org/profiles/mrbuche/" -o raw/read-the-docs-user.html
           rm raw/xbox-account.json
           touch raw/xbox-account.json
-          while [ $(stat -c %s xbox-account.json) == '0' ]; do 
+          while [ $(stat -c %s raw/xbox-account.json) == '0' ]; do 
             curl --header "X-Authorization: ${OPENXBL_API_KEY}" "https://xbl.io/api/v2/account" -o raw/xbox-account.json
           done
           git config user.name "GitHub Actions"
