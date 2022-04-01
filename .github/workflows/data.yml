@@ -28,6 +28,7 @@ jobs:
           touch raw/xbox-account.json
           while [ $(stat -c %s xbox-account.json) == '0' ]; do 
             curl --header "X-Authorization: ${OPENXBL_API_KEY}" "https://xbl.io/api/v2/account" -o raw/xbox-account.json
+          done
           git config user.name "GitHub Actions"
           git config user.email "<>"
           git add raw/
