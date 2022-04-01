@@ -51,7 +51,7 @@ jobs:
           curl "https://img.shields.io/badge/Docker%20Hub-${NUM_REPOS}%20repositories-red?color=0db7ed&logo=docker&logoColor=0db7ed" -o badges/docker-hub-repos-count.svg
       - name: Read the Docs
         run: |
-          export NUM_PROJECTS=$(echo "1")
+          export NUM_PROJECTS=$(grep -o 'View Docs' file | wc -l)
           curl "https://img.shields.io/badge/Read%20the%20Docs-${NUM_PROJECTS}%20projects-red?color=8ca1af&logo=readthedocs&logoColor=8ca1af" -o badges/rtd-projects-count.svg
       - name: Xbox
         run: |
