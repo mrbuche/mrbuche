@@ -1,4 +1,4 @@
-ufjc
+`ufjc`
 
 [![docs](https://img.shields.io/readthedocs/ufjc?logo=readthedocs)](https://ufjc.readthedocs.io/en/latest/)
 [![build](https://github.com/sandialabs/ufjc/workflows/main/badge.svg)](https://github.com/sandialabs/ufjc)
