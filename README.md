@@ -1,5 +1,5 @@
 [![website](https://img.shields.io/website?down_message=offline&up_message=online&url=https%3A%2F%2Fmrbuche.github.io&label=Website&logo=realm)](https://mrbuche.github.io/)
-[![github](https://raw.githubusercontent.com/mrbuche/mrbuche/data/badges/github-repos-count.svg)](https://github.com/mrbuche)
+[![github](https://raw.githubusercontent.com/mrbuche/mrbuche/data/badges/github-repos-count.svg)](https://github.com/mrbuche/mrbuche/blob/main/REPOSITORIES.md)
 [![pypi](https://raw.githubusercontent.com/mrbuche/mrbuche/data/badges/pypi-projects-count.svg)](https://pypi.org/user/mrbuche/)
 [![anaconda](https://raw.githubusercontent.com/mrbuche/mrbuche/data/badges/anaconda-packages-count.svg)](https://anaconda.org/mrbuche)
 [![docker](https://raw.githubusercontent.com/mrbuche/mrbuche/data/badges/docker-hub-repos-count.svg)](https://hub.docker.com/u/mrbuche)
