@@ -2,7 +2,7 @@ name: repo-badges
 on:
   push:
     branches:
-      - workflows
+      - main
   schedule:
     - cron: "8 0 * * *"
   workflow_dispatch:
