@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "624af0edc573d58c536d040a",
+    "id": "62582a1f3e86ac0a9d4ea66e",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/6a9294f6c1bd8ed4/624af0edc573d58c536d040a.json",
-    "created_at": "2022-04-04 13:21:49 UTC",
-    "processed_at": "2022-04-04 13:21:49 UTC",
+    "json_endpoint": "https://serpapi.com/searches/6a9294f6c1bd8ed4/62582a1f3e86ac0a9d4ea66e.json",
+    "created_at": "2022-04-14 14:05:19 UTC",
+    "processed_at": "2022-04-14 14:05:19 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=YJ8Ei6AAAAAJ&hl=en",
-    "raw_html_file": "https://serpapi.com/searches/6a9294f6c1bd8ed4/624af0edc573d58c536d040a.html",
-    "total_time_taken": 0.22
+    "raw_html_file": "https://serpapi.com/searches/6a9294f6c1bd8ed4/62582a1f3e86ac0a9d4ea66e.html",
+    "total_time_taken": 0.74
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -35,6 +35,20 @@
   },
   "articles": [
     {
+      "title": "Tuning the mechanical properties of metallopolymers via ligand interactions: a combined experimental and theoretical study",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YJ8Ei6AAAAAJ&citation_for_view=YJ8Ei6AAAAAJ:d1gkVwhDpl0C",
+      "citation_id": "YJ8Ei6AAAAAJ:d1gkVwhDpl0C",
+      "authors": "Y Vidavsky, MR Buche, ZM Sparrow, X Zhang, SJ Yang, RA DiStasio Jr, ...",
+      "publication": "Macromolecules 53 (6), 2021-2030, 2020",
+      "cited_by": {
+        "value": 10,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13858321362381021641",
+        "serpapi_link": "https://serpapi.com/search.json?cites=13858321362381021641&engine=google_scholar&hl=en",
+        "cites_id": "13858321362381021641"
+      },
+      "year": "2020"
+    },
+    {
       "title": "Bridging experiments and theory: isolating the effects of metal–ligand interactions on viscoelasticity of reversible polymer networks",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YJ8Ei6AAAAAJ&citation_for_view=YJ8Ei6AAAAAJ:IjCSPb-OGe4C",
       "citation_id": "YJ8Ei6AAAAAJ:IjCSPb-OGe4C",
@@ -45,20 +59,6 @@
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12958867339773828326",
         "serpapi_link": "https://serpapi.com/search.json?cites=12958867339773828326&engine=google_scholar&hl=en",
         "cites_id": "12958867339773828326"
-      },
-      "year": "2020"
-    },
-    {
-      "title": "Tuning the mechanical properties of metallopolymers via ligand interactions: a combined experimental and theoretical study",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YJ8Ei6AAAAAJ&citation_for_view=YJ8Ei6AAAAAJ:d1gkVwhDpl0C",
-      "citation_id": "YJ8Ei6AAAAAJ:d1gkVwhDpl0C",
-      "authors": "Y Vidavsky, MR Buche, ZM Sparrow, X Zhang, SJ Yang, RA DiStasio Jr, ...",
-      "publication": "Macromolecules 53 (6), 2021-2030, 2020",
-      "cited_by": {
-        "value": 9,
-        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13858321362381021641",
-        "serpapi_link": "https://serpapi.com/search.json?cites=13858321362381021641&engine=google_scholar&hl=en",
-        "cites_id": "13858321362381021641"
       },
       "year": "2020"
     },
@@ -147,8 +147,8 @@
     "table": [
       {
         "citations": {
-          "all": 40,
-          "since_2017": 40
+          "all": 41,
+          "since_2017": 41
         }
       },
       {
@@ -159,8 +159,8 @@
       },
       {
         "i10_index": {
-          "all": 1,
-          "since_2017": 1
+          "all": 2,
+          "since_2017": 2
         }
       }
     ],
@@ -175,7 +175,7 @@
       },
       {
         "year": 2022,
-        "citations": 8
+        "citations": 9
       }
     ]
   },
