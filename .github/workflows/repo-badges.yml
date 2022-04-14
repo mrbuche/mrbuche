@@ -1,0 +1,45 @@
+name: repo-badges
+on:
+  push:
+    branches:
+      - workflows
+  schedule:
+    - cron: "8 0 * * *"
+  workflow_dispatch:
+jobs:
+  badges:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: main
+      - name: init
+        run: |
+          touch REPOSITORIES.rst
+          rm REPOSITORIES.rst
+      - name: ufjc
+        run: |
+          echo "\`\`ufjc\`\`"$'\n' >> REPOSITORIES.rst
+          echo "$(curl https://raw.githubusercontent.com/sandialabs/ufjc/main/README.rst | grep "|docs| |")" >> REPOSITORIES.rst
+          echo "$(curl https://raw.githubusercontent.com/sandialabs/ufjc/main/README.rst | sed -e '1,/Badges/d')" >> REPOSITORIES.rst
+          echo "" >> REPOSITORIES.rst
+      - name: convert
+        run: |
+          sudo apt install -y pandoc
+          pandoc -s -o REPOSITORIES.md REPOSITORIES.rst
+      - name: mrbuche
+        run: |
+          echo $(curl https://raw.githubusercontent.com/mrbuche/mrbuche/main/README.md | sed '/Michael R. Buche/,$d') > temp
+          echo "$(echo "[\`mrbuche\`](https://github.com/mrbuche)"$'\n'; cat temp; echo ""; cat REPOSITORIES.md)" > REPOSITORIES.md
+          rm temp
+      - name: cleanup
+        run: |
+          sed -i 's/^`/### `/' REPOSITORIES.md
+          sed -i 's/\[`/### \[`/g' REPOSITORIES.md
+      - name: push
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "<>"
+          git add REPOSITORIES.md
+          git commit --allow-empty -m 'update repo badges'
+          git push
