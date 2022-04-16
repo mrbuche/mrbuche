@@ -14,5 +14,4 @@ Michael R. Buche, PhD
 R&D S&E, Computer Science  
 Senior Member of the Technical Staff  
 Computational Solid Mechanics and Structural Dynamics  
-[Sandia National Laboratories](https://www.sandia.gov)  
-Albuquerque, New Mexico, United States of America
+[Sandia National Laboratories](https://www.sandia.gov), Albuquerque, New Mexico, USA
