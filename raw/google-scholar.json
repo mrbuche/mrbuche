@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "6258b98d2236e261cc294ddd",
+    "id": "625a0b5f34ff9550275c88d2",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/6a9294f6c1bd8ed4/6258b98d2236e261cc294ddd.json",
-    "created_at": "2022-04-15 00:17:17 UTC",
-    "processed_at": "2022-04-15 00:17:17 UTC",
+    "json_endpoint": "https://serpapi.com/searches/6a9294f6c1bd8ed4/625a0b5f34ff9550275c88d2.json",
+    "created_at": "2022-04-16 00:18:39 UTC",
+    "processed_at": "2022-04-16 00:18:40 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=YJ8Ei6AAAAAJ&hl=en",
-    "raw_html_file": "https://serpapi.com/searches/6a9294f6c1bd8ed4/6258b98d2236e261cc294ddd.html",
-    "total_time_taken": 0.99
+    "raw_html_file": "https://serpapi.com/searches/6a9294f6c1bd8ed4/625a0b5f34ff9550275c88d2.html",
+    "total_time_taken": 0.22
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -31,7 +31,7 @@
         "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Astatistical_thermodynamics"
       }
     ],
-    "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=YJ8Ei6AAAAAJ&citpid=3"
+    "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=YJ8Ei6AAAAAJ&citpid=4"
   },
   "articles": [
     {
@@ -41,7 +41,7 @@
       "authors": "Y Vidavsky, MR Buche, ZM Sparrow, X Zhang, SJ Yang, RA DiStasio Jr, ...",
       "publication": "Macromolecules 53 (6), 2021-2030, 2020",
       "cited_by": {
-        "value": 10,
+        "value": 11,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13858321362381021641",
         "serpapi_link": "https://serpapi.com/search.json?cites=13858321362381021641&engine=google_scholar&hl=en",
         "cites_id": "13858321362381021641"
@@ -55,7 +55,7 @@
       "authors": "X Zhang, Y Vidavsky, S Aharonovich, SJ Yang, MR Buche, ...",
       "publication": "Soft Matter 16 (37), 8591-8601, 2020",
       "cited_by": {
-        "value": 10,
+        "value": 11,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12958867339773828326",
         "serpapi_link": "https://serpapi.com/search.json?cites=12958867339773828326&engine=google_scholar&hl=en",
         "cites_id": "12958867339773828326"
@@ -147,8 +147,8 @@
     "table": [
       {
         "citations": {
-          "all": 41,
-          "since_2017": 41
+          "all": 43,
+          "since_2017": 43
         }
       },
       {
@@ -175,7 +175,7 @@
       },
       {
         "year": 2022,
-        "citations": 9
+        "citations": 11
       }
     ]
   },
@@ -220,6 +220,14 @@
       "affiliations": "Assistant Professor, Chemistry and Chemical Biology, Cornell University",
       "email": "Verified email at cornell.edu",
       "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=small_photo&user=_eNCkt0AAAAJ&citpid=5"
+    },
+    {
+      "name": "Zachary M. Sparrow",
+      "link": "https://scholar.google.com/citations?user=oyR3ZTYAAAAJ&hl=en",
+      "serpapi_link": "https://serpapi.com/search.json?author_id=oyR3ZTYAAAAJ&engine=google_scholar_author&hl=en",
+      "author_id": "oyR3ZTYAAAAJ",
+      "email": "Verified email at cornell.edu",
+      "thumbnail": "https://scholar.google.com/citations/images/avatar_scholar_56.png"
     },
     {
       "name": "Kristopher Kilian",
