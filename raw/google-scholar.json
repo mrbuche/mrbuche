@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "626dd39c660dbd4a77cd7e1b",
+    "id": "626f239e8cd87832bab42616",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/6a9294f6c1bd8ed4/626dd39c660dbd4a77cd7e1b.json",
-    "created_at": "2022-05-01 00:26:04 UTC",
-    "processed_at": "2022-05-01 00:26:04 UTC",
+    "json_endpoint": "https://serpapi.com/searches/6a9294f6c1bd8ed4/626f239e8cd87832bab42616.json",
+    "created_at": "2022-05-02 00:19:42 UTC",
+    "processed_at": "2022-05-02 00:19:42 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=YJ8Ei6AAAAAJ&hl=en",
-    "raw_html_file": "https://serpapi.com/searches/6a9294f6c1bd8ed4/626dd39c660dbd4a77cd7e1b.html",
-    "total_time_taken": 1.5
+    "raw_html_file": "https://serpapi.com/searches/6a9294f6c1bd8ed4/626f239e8cd87832bab42616.html",
+    "total_time_taken": 1.0
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -31,7 +31,7 @@
         "serpapi_link": "https://serpapi.com/search.json?engine=google_scholar_profiles&hl=en&mauthors=label%3Astatistical_thermodynamics"
       }
     ],
-    "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=YJ8Ei6AAAAAJ&citpid=4"
+    "thumbnail": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=YJ8Ei6AAAAAJ&citpid=7"
   },
   "articles": [
     {
