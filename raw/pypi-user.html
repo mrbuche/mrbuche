@@ -1,880 +1,119 @@
-
-
-
-
-
-
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <meta name="defaultLanguage" content="en">
-    <meta name="availableLanguages" content="en, es, fr, ja, pt_BR, uk, el, de, zh_Hans, zh_Hant, ru, he, eo">
+    <meta name="availableLanguages" content="en">
 
-    
+    <title>Service Unavailable (503)</title>
 
-    <title>Profile of mrbuche · PyPI</title>
     <meta name="description" content="The Python Package Index (PyPI) is a repository of software for the Python programming language.">
 
-    <link rel="stylesheet" href="/static/css/warehouse-ltr.725c5f70.css">
-    <link rel="stylesheet" href="/static/css/fontawesome.6002a161.css">
-    <link rel="stylesheet" href="/static/css/regular.98fbf39a.css">
-    <link rel="stylesheet" href="/static/css/solid.c3b5f0b5.css">
-    <link rel="stylesheet" href="/static/css/brands.2c303be1.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,600,600italic,700,700italic%7CSource+Code+Pro:500">
-    <noscript>
-      <link rel="stylesheet" href="/static/css/noscript.d4ce1e76.css">
-    </noscript>
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,600,600italic,700,700italic|Source+Code+Pro:500">
 
-    
+    <style>
+      html,
+      body {
+        box-sizing: border-box;
+        font-family: 'Source Sans Pro', 'Helvetica', Arial, sans-serif;
+        font-size: 17px;
+        line-height: 1.4;
+        font-weight: 300;
+        color: #fff;
+        -webkit-text-size-adjust: 100%;
+        font-size: 100%;
+        padding: 0;
+        margin: 0;
+      }
 
-    <link rel="icon" href="/static/images/favicon.6a76275d.ico" type="image/x-icon">
+      h1, strong {
+        font-weight: 600;
+      }
 
-    <link rel="alternate" type="application/rss+xml" title="RSS: 40 latest updates" href="/rss/updates.xml">
-    <link rel="alternate" type="application/rss+xml" title="RSS: 40 newest packages" href="/rss/packages.xml">
-    
-    
+      ul {
+        list-style-type: none;
+        padding-left: 0;
+      }
 
-    <meta property="og:url" content="https://pypi.org/user/mrbuche/">
-    <meta property="og:site_name" content="PyPI">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="https://pypi.org/static/images/twitter.6fecba6f.jpg">
-    <meta property="og:title" content="Profile of mrbuche">
-    <meta property="og:description" content="The Python Package Index (PyPI) is a repository of software for the Python programming language.">
-    
+      hr {
+        margin: 50px auto;
+        width: 300px;
+        max-width: 100%;
+        border: 0;
+        height: 2px;
+        background: rgba(255, 255, 255, 0.5);
+      }
 
-    <link rel="search" type="application/opensearchdescription+xml" title="PyPI" href="/opensearch.xml">
+      .viewport-section {
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #006dad;
+        color: #fff;
+      }
 
-    
-    <script async
-            data-ga-id="UA-55961911-1"
-            src="/static/js/warehouse.deaaafda.js">
-    </script>
-    
-    
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-55961911-1"></script>
-    <script defer src="https://www.fastly-insights.com/insights.js?k=6a52360a-f306-421e-8ed5-7417d0d4a4e9&dnt=true"></script>
-    <script async
-        src="https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js"
-        integrity="sha256-U3hKDidudIaxBDEzwGJApJgPEf2mWk6cfMWghrAa6i0= sha384-UcmsCqcNRSLW/dV3Lo1oCi2/VaurXbib6p4HyUEOeIa/4OpsrnucrugAefzVZJfI sha512-q4t1L4xEjGV2R4hzqCa41P8jrgFUS8xTb8rdNv4FGvw7FpydVj/kkxBJHOiaoxHa8olCcx1Slk9K+3sNbsM4ug=="
-        crossorigin="anonymous"
-    ></script>
+      .viewport-section a {
+        color: #fff;
+      }
+
+      .viewport-section__content {
+        text-align: center;
+        padding: 30px;
+        min-width: 0;
+      }
+
+      .viewport-section__heading {
+        font-size: 2.4em;
+        padding: 20px 15px 0;
+        margin: 0;
+      }
+
+      @media screen and (max-width: 600px) {
+        .viewport-section__content {
+          padding: 15px;
+        }
+
+        .viewport-section__heading {
+          font-size: 1.5em;
+        }
+      }
+    </style>
+
   </head>
 
-  <body data-controller="viewport-toggle">
-    
+  <body>
+    <div class="viewport-section">
+      <div class="viewport-section__content">
+        <img alt="PyPI logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI2NS44MTIiIGhlaWdodD0iNTgiIHZpZXdCb3g9IjAgMCA2NS44MTIwMzUgNTguMDAwMDAxIj48ZyBmaWxsPSIjYTI5ZDg2IiBzdHJva2U9IiNjY2MiIHN0cm9rZS13aWR0aD0iLjIxNCIgc3Ryb2tlLWxpbmVqb2luPSJiZXZlbCI+PHBhdGggZD0iTTE4LjkzIDE4LjgyNmw5LjMyMyAzLjM5NHYxMC45NTdsLTkuMzIzLTMuMzk0eiIgc3R5bGU9Imlzb2xhdGlvbjphdXRvO21peC1ibGVuZC1tb2RlOm5vcm1hbCIgY29sb3I9IiMwMDAiIG92ZXJmbG93PSJ2aXNpYmxlIiBmaWxsPSIjZTllOWZmIi8+PHBhdGggZD0iTTkuNDcgMjIuMjd2MTAuOTU3bDkuNDYtMy40NDRWMTguODI2eiIgc3R5bGU9Imlzb2xhdGlvbjphdXRvO21peC1ibGVuZC1tb2RlOm5vcm1hbCIgY29sb3I9IiMwMDAiIG92ZXJmbG93PSJ2aXNpYmxlIiBmaWxsPSIjMzUzNTY0Ii8+PHBhdGggZD0iTTkuNDcgMzMuMjI3bDkuMzIyIDMuMzkzIDkuNDYtMy40NDMtOS4zMjItMy4zOTR6IiBzdHlsZT0iaXNvbGF0aW9uOmF1dG87bWl4LWJsZW5kLW1vZGU6bm9ybWFsIiBjb2xvcj0iIzAwMCIgb3ZlcmZsb3c9InZpc2libGUiIGZpbGw9IiNhZmFmZGUiLz48cGF0aCBkPSJNOS40NyAyMi4yN2w5LjMyMiAzLjM5MyA5LjQ2LTMuNDQzLTkuMzIyLTMuMzk0eiIgZmlsbD0iI2Y3ZjdmNCIvPjxwYXRoIGQ9Ik0xOC43OTIgMjUuNjYzVjM2LjYybDkuNDYtMy40NDNWMjIuMjJ6IiBmaWxsPSIjZmZmIi8+PHBhdGggZD0iTTkuNDcgMjIuMjdsOS4zMjIgMy4zOTNWMzYuNjJMOS40NyAzMy4yMjd6IiBmaWxsPSIjZWZlZWVhIi8+PHBhdGggc3R5bGU9Imlzb2xhdGlvbjphdXRvO21peC1ibGVuZC1tb2RlOm5vcm1hbCIgZD0iTTI4LjI5MyAxMS4xNjZsOS4zMjMgMy4zOTN2MTAuOTU3bC05LjMyMy0zLjM5M3oiIGNvbG9yPSIjMDAwIiBvdmVyZmxvdz0idmlzaWJsZSIgZmlsbD0iI2U5ZTlmZiIvPjxwYXRoIHN0eWxlPSJpc29sYXRpb246YXV0bzttaXgtYmxlbmQtbW9kZTpub3JtYWwiIGQ9Ik0xOC44MzMgMTQuNjA5djEwLjk1N2w5LjQ2LTMuNDQzVjExLjE2NnoiIGNvbG9yPSIjMDAwIiBvdmVyZmxvdz0idmlzaWJsZSIgZmlsbD0iIzM1MzU2NCIvPjxwYXRoIHN0eWxlPSJpc29sYXRpb246YXV0bzttaXgtYmxlbmQtbW9kZTpub3JtYWwiIGQ9Ik0xOC44MzMgMjUuNTY2bDkuMzIyIDMuMzkzIDkuNDYxLTMuNDQzLTkuMzIzLTMuMzkzeiIgY29sb3I9IiMwMDAiIG92ZXJmbG93PSJ2aXNpYmxlIiBmaWxsPSIjYWZhZmRlIi8+PHBhdGggZD0iTTE4LjgzMyAxNC42MDlsOS4zMjIgMy4zOTMgOS40NjEtMy40NDMtOS4zMjMtMy4zOTN6IiBmaWxsPSIjZjdmN2Y0Ii8+PHBhdGggZD0iTTI4LjE1NSAxOC4wMDJWMjguOTZsOS40NjEtMy40NDNWMTQuNTU5eiIgZmlsbD0iI2ZmZiIvPjxwYXRoIGQ9Ik0xOC44MzMgMTQuNjA5bDkuMzIyIDMuMzkzVjI4Ljk2bC05LjMyMi0zLjM5M3oiIGZpbGw9IiNlZmVlZWEiLz48cGF0aCBkPSJNOS41NjcgMzMuMjk3bDkuMzIyIDMuMzkzdjEwLjk1N2wtOS4zMjItMy4zOTN6IiBzdHlsZT0iaXNvbGF0aW9uOmF1dG87bWl4LWJsZW5kLW1vZGU6bm9ybWFsIiBjb2xvcj0iIzAwMCIgb3ZlcmZsb3c9InZpc2libGUiIGZpbGw9IiNlOWU5ZmYiLz48cGF0aCBkPSJNLjEwNiAzNi43NHYxMC45NTdsOS40Ni0zLjQ0M1YzMy4yOTd6IiBzdHlsZT0iaXNvbGF0aW9uOmF1dG87bWl4LWJsZW5kLW1vZGU6bm9ybWFsIiBjb2xvcj0iIzAwMCIgb3ZlcmZsb3c9InZpc2libGUiIGZpbGw9IiMzNTM1NjQiLz48cGF0aCBkPSJNLjEwNiA0Ny42OTdMOS40MyA1MS4wOWw5LjQ2LTMuNDQzLTkuMzIyLTMuMzkzeiIgc3R5bGU9Imlzb2xhdGlvbjphdXRvO21peC1ibGVuZC1tb2RlOm5vcm1hbCIgY29sb3I9IiMwMDAiIG92ZXJmbG93PSJ2aXNpYmxlIiBmaWxsPSIjYWZhZmRlIi8+PHBhdGggZD0iTS4xMDYgMzYuNzRsOS4zMjMgMy4zOTMgOS40Ni0zLjQ0My05LjMyMi0zLjM5M3oiIGZpbGw9IiNmN2Y3ZjQiLz48cGF0aCBkPSJNOS40MjkgNDAuMTMzVjUxLjA5bDkuNDYtMy40NDNWMzYuNjl6IiBmaWxsPSIjZmZmIi8+PHBhdGggZD0iTS4xMDYgMzYuNzRsOS4zMjMgMy4zOTNWNTEuMDlMLjEwNiA0Ny42OTd6IiBmaWxsPSIjZWZlZWVhIi8+PC9nPjxnIGZpbGw9IiNhMjlkODYiIHN0cm9rZT0iI2NjYyIgc3Ryb2tlLXdpZHRoPSIuMjE0IiBzdHJva2UtbGluZWpvaW49ImJldmVsIj48cGF0aCBzdHlsZT0iaXNvbGF0aW9uOmF1dG87bWl4LWJsZW5kLW1vZGU6bm9ybWFsIiBkPSJNMTguOTMgMzYuNzAybDkuMzIzIDMuMzkzdjEwLjk1N2wtOS4zMjMtMy4zOTN6IiBjb2xvcj0iIzAwMCIgb3ZlcmZsb3c9InZpc2libGUiIGZpbGw9IiNlOWU5ZmYiLz48cGF0aCBzdHlsZT0iaXNvbGF0aW9uOmF1dG87bWl4LWJsZW5kLW1vZGU6bm9ybWFsIiBkPSJNOS40NyA0MC4xNDV2MTAuOTU3bDkuNDYtMy40NDNWMzYuNzAyeiIgY29sb3I9IiMwMDAiIG92ZXJmbG93PSJ2aXNpYmxlIiBmaWxsPSIjMzUzNTY0Ii8+PHBhdGggc3R5bGU9Imlzb2xhdGlvbjphdXRvO21peC1ibGVuZC1tb2RlOm5vcm1hbCIgZD0iTTkuNDcgNTEuMTAybDkuMzIyIDMuMzkzIDkuNDYtMy40NDMtOS4zMjItMy4zOTN6IiBjb2xvcj0iIzAwMCIgb3ZlcmZsb3c9InZpc2libGUiIGZpbGw9IiNhZmFmZGUiLz48cGF0aCBkPSJNOS40NyA0MC4xNDVsOS4zMjIgMy4zOTMgOS40Ni0zLjQ0My05LjMyMi0zLjM5M3oiIGZpbGw9IiNmN2Y3ZjQiLz48cGF0aCBkPSJNMTguNzkyIDQzLjUzOHYxMC45NTdsOS40Ni0zLjQ0M1Y0MC4wOTV6IiBmaWxsPSIjZmZmIi8+PHBhdGggZD0iTTkuNDcgNDAuMTQ1bDkuMzIyIDMuMzkzdjEwLjk1N0w5LjQ3IDUxLjEwMnoiIGZpbGw9IiNlZmVlZWEiLz48L2c+PGcgZmlsbD0iI2EyOWQ4NiIgc3Ryb2tlPSIjY2NjIiBzdHJva2Utd2lkdGg9Ii4yMTQiIHN0cm9rZS1saW5lam9pbj0iYmV2ZWwiPjxwYXRoIGQ9Ik0xOC45MyAyNS42MzZsOS4zMjMgMy4zOTN2MTAuOTU3bC05LjMyMy0zLjM5M3oiIHN0eWxlPSJpc29sYXRpb246YXV0bzttaXgtYmxlbmQtbW9kZTpub3JtYWwiIGNvbG9yPSIjMDAwIiBvdmVyZmxvdz0idmlzaWJsZSIgZmlsbD0iI2U5ZTlmZiIvPjxwYXRoIGQ9Ik05LjQ3IDI5LjA4djEwLjk1Nmw5LjQ2LTMuNDQzVjI1LjYzNnoiIHN0eWxlPSJpc29sYXRpb246YXV0bzttaXgtYmxlbmQtbW9kZTpub3JtYWwiIGNvbG9yPSIjMDAwIiBvdmVyZmxvdz0idmlzaWJsZSIgZmlsbD0iIzM1MzU2NCIvPjxwYXRoIGQ9Ik05LjQ3IDQwLjAzNmw5LjMyMiAzLjM5NCA5LjQ2LTMuNDQ0LTkuMzIyLTMuMzkzeiIgc3R5bGU9Imlzb2xhdGlvbjphdXRvO21peC1ibGVuZC1tb2RlOm5vcm1hbCIgY29sb3I9IiMwMDAiIG92ZXJmbG93PSJ2aXNpYmxlIiBmaWxsPSIjYWZhZmRlIi8+PHBhdGggZD0iTTkuNDcgMjkuMDhsOS4zMjIgMy4zOTMgOS40Ni0zLjQ0NC05LjMyMi0zLjM5M3oiIGZpbGw9IiNmN2Y3ZjQiLz48cGF0aCBkPSJNMTguNzkyIDMyLjQ3M1Y0My40M2w5LjQ2LTMuNDQ0VjI5LjAzeiIgZmlsbD0iI2ZmZiIvPjxwYXRoIGQ9Ik05LjQ3IDI5LjA4bDkuMzIyIDMuMzkzVjQzLjQzTDkuNDcgNDAuMDM2eiIgZmlsbD0iI2VmZWVlYSIvPjwvZz48ZyBmaWxsPSIjYTI5ZDg2IiBzdHJva2U9IiNjY2MiIHN0cm9rZS13aWR0aD0iLjIxNCIgc3Ryb2tlLWxpbmVqb2luPSJiZXZlbCI+PHBhdGggc3R5bGU9Imlzb2xhdGlvbjphdXRvO21peC1ibGVuZC1tb2RlOm5vcm1hbCIgZD0iTTU2LjM4MyAyOS44OTJsOS4zMjMgMy4zOTN2MTAuOTU3bC05LjMyMy0zLjM5M3oiIGNvbG9yPSIjMDAwIiBvdmVyZmxvdz0idmlzaWJsZSIgZmlsbD0iI2U5ZTlmZiIvPjxwYXRoIHN0eWxlPSJpc29sYXRpb246YXV0bzttaXgtYmxlbmQtbW9kZTpub3JtYWwiIGQ9Ik00Ni45MjMgMzMuMzM1djEwLjk1N2w5LjQ2LTMuNDQzVjI5Ljg5MnoiIGNvbG9yPSIjMDAwIiBvdmVyZmxvdz0idmlzaWJsZSIgZmlsbD0iIzM1MzU2NCIvPjxwYXRoIHN0eWxlPSJpc29sYXRpb246YXV0bzttaXgtYmxlbmQtbW9kZTpub3JtYWwiIGQ9Ik00Ni45MjMgNDQuMjkybDkuMzIyIDMuMzk0IDkuNDYtMy40NDQtOS4zMjItMy4zOTN6IiBjb2xvcj0iIzAwMCIgb3ZlcmZsb3c9InZpc2libGUiIGZpbGw9IiNhZmFmZGUiLz48cGF0aCBkPSJNNDYuOTIzIDMzLjMzNWw5LjMyMiAzLjM5NCA5LjQ2LTMuNDQ0LTkuMzIyLTMuMzkzeiIgZmlsbD0iI2Y3ZjdmNCIvPjxwYXRoIGQ9Ik01Ni4yNDUgMzYuNzI5djEwLjk1N2w5LjQ2LTMuNDQ0VjMzLjI4NXoiIGZpbGw9IiNmZmYiLz48cGF0aCBkPSJNNDYuOTIzIDMzLjMzNWw5LjMyMiAzLjM5NHYxMC45NTdsLTkuMzIyLTMuMzk0eiIgZmlsbD0iI2VmZWVlYSIvPjwvZz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTY4My42NiAtNTEzLjI3NSkgc2NhbGUoLjY1MTc3KSI+PGcgZmlsbD0iI2EyOWQ4NiIgc3Ryb2tlPSIjY2NjIiBzdHJva2Utd2lkdGg9Ii4zMjgiIHN0cm9rZS1saW5lam9pbj0iYmV2ZWwiPjxwYXRoIHN0eWxlPSJpc29sYXRpb246YXV0bzttaXgtYmxlbmQtbW9kZTpub3JtYWwiIGQ9Ik0yNjU1LjM0OSA4MzguNTk0bDE0LjMwMyA1LjIwNnYxNi44MTFsLTE0LjMwMy01LjIwNnoiIGNvbG9yPSIjMDAwIiBvdmVyZmxvdz0idmlzaWJsZSIgZmlsbD0iI2U5ZTlmZiIvPjxwYXRoIHN0eWxlPSJpc29sYXRpb246YXV0bzttaXgtYmxlbmQtbW9kZTpub3JtYWwiIGQ9Ik0yNjQwLjgzNCA4NDMuODc3djE2LjgxMWwxNC41MTUtNS4yODN2LTE2LjgxeiIgY29sb3I9IiMwMDAiIG92ZXJmbG93PSJ2aXNpYmxlIiBmaWxsPSIjMzUzNTY0Ii8+PHBhdGggc3R5bGU9Imlzb2xhdGlvbjphdXRvO21peC1ibGVuZC1tb2RlOm5vcm1hbCIgZD0iTTI2NDAuODM0IDg2MC42ODhsMTQuMzAzIDUuMjA2IDE0LjUxNS01LjI4My0xNC4zMDMtNS4yMDZ6IiBjb2xvcj0iIzAwMCIgb3ZlcmZsb3c9InZpc2libGUiIGZpbGw9IiNhZmFmZGUiLz48cGF0aCBkPSJNMjY0MC44MzQgODQzLjg3N2wxNC4zMDMgNS4yMDYgMTQuNTE1LTUuMjgzLTE0LjMwMy01LjIwNnoiIGZpbGw9IiNmN2Y3ZjQiLz48cGF0aCBkPSJNMjY1NS4xMzcgODQ5LjA4M3YxNi44MTFsMTQuNTE1LTUuMjgzdi0xNi44MXoiIGZpbGw9IiNmZmQyNDIiLz48cGF0aCBkPSJNMjY0MC44MzQgODQzLjg3N2wxNC4zMDMgNS4yMDZ2MTYuODExbC0xNC4zMDMtNS4yMDZ6IiBmaWxsPSIjZWZlZWVhIi8+PC9nPjxjaXJjbGUgdHJhbnNmb3JtPSJza2V3WSgtMjApIHNjYWxlKC45Mzk3IDEpIiBjeT0iMTgyMy44OTkiIGN4PSIyODM1LjIxOCIgcj0iMi45NjciIGZpbGw9IiNmZmYiLz48L2c+PGcgZmlsbD0iI2EyOWQ4NiIgc3Ryb2tlPSIjY2NjIiBzdHJva2Utd2lkdGg9Ii4yMTQiIHN0cm9rZS1saW5lam9pbj0iYmV2ZWwiPjxwYXRoIGQ9Ik0zNy42NTcgMzYuNzAybDkuMzIyIDMuMzkzdjEwLjk1N2wtOS4zMjItMy4zOTN6IiBzdHlsZT0iaXNvbGF0aW9uOmF1dG87bWl4LWJsZW5kLW1vZGU6bm9ybWFsIiBjb2xvcj0iIzAwMCIgb3ZlcmZsb3c9InZpc2libGUiIGZpbGw9IiNlOWU5ZmYiLz48cGF0aCBkPSJNMjguMTk2IDQwLjE0NXYxMC45NTdsOS40Ni0zLjQ0M1YzNi43MDJ6IiBzdHlsZT0iaXNvbGF0aW9uOmF1dG87bWl4LWJsZW5kLW1vZGU6bm9ybWFsIiBjb2xvcj0iIzAwMCIgb3ZlcmZsb3c9InZpc2libGUiIGZpbGw9IiMzNTM1NjQiLz48cGF0aCBkPSJNMjguMTk2IDUxLjEwMmw5LjMyMyAzLjM5MyA5LjQ2LTMuNDQzLTkuMzIyLTMuMzkzeiIgc3R5bGU9Imlzb2xhdGlvbjphdXRvO21peC1ibGVuZC1tb2RlOm5vcm1hbCIgY29sb3I9IiMwMDAiIG92ZXJmbG93PSJ2aXNpYmxlIiBmaWxsPSIjYWZhZmRlIi8+PHBhdGggZD0iTTI4LjE5NiA0MC4xNDVsOS4zMjMgMy4zOTMgOS40Ni0zLjQ0My05LjMyMi0zLjM5M3oiIGZpbGw9IiNmN2Y3ZjQiLz48cGF0aCBkPSJNMzcuNTE5IDQzLjUzOHYxMC45NTdsOS40Ni0zLjQ0M1Y0MC4wOTV6IiBmaWxsPSIjZmZkMjQyIi8+PHBhdGggZD0iTTI4LjE5NiA0MC4xNDVsOS4zMjMgMy4zOTN2MTAuOTU3bC05LjMyMy0zLjM5M3oiIGZpbGw9IiNlZmVlZWEiLz48L2c+PGcgZmlsbD0iI2EyOWQ4NiIgc3Ryb2tlPSIjY2NjIiBzdHJva2Utd2lkdGg9Ii4yMTQiIHN0cm9rZS1saW5lam9pbj0iYmV2ZWwiPjxwYXRoIHN0eWxlPSJpc29sYXRpb246YXV0bzttaXgtYmxlbmQtbW9kZTpub3JtYWwiIGQ9Ik0yOC4yOTMgNDAuMTA3bDkuMzIzIDMuMzkzdjEwLjk1N2wtOS4zMjMtMy4zOTN6IiBjb2xvcj0iIzAwMCIgb3ZlcmZsb3c9InZpc2libGUiIGZpbGw9IiNlOWU5ZmYiLz48cGF0aCBzdHlsZT0iaXNvbGF0aW9uOmF1dG87bWl4LWJsZW5kLW1vZGU6bm9ybWFsIiBkPSJNMTguODMzIDQzLjU1djEwLjk1N2w5LjQ2LTMuNDQzVjQwLjEwN3oiIGNvbG9yPSIjMDAwIiBvdmVyZmxvdz0idmlzaWJsZSIgZmlsbD0iIzM1MzU2NCIvPjxwYXRoIHN0eWxlPSJpc29sYXRpb246YXV0bzttaXgtYmxlbmQtbW9kZTpub3JtYWwiIGQ9Ik0xOC44MzMgNTQuNTA3bDkuMzIyIDMuMzkzIDkuNDYtMy40NDMtOS4zMjItMy4zOTN6IiBjb2xvcj0iIzAwMCIgb3ZlcmZsb3c9InZpc2libGUiIGZpbGw9IiNhZmFmZGUiLz48cGF0aCBkPSJNMTguODMzIDQzLjU1bDkuMzIyIDMuMzkzIDkuNDYtMy40NDMtOS4zMjItMy4zOTN6IiBmaWxsPSIjZjdmN2Y0Ii8+PHBhdGggZD0iTTI4LjE1NSA0Ni45NDNWNTcuOWw5LjQ2LTMuNDQzVjQzLjV6IiBmaWxsPSIjZmZmIi8+PHBhdGggZD0iTTE4LjgzMyA0My41NWw5LjMyMiAzLjM5M1Y1Ny45bC05LjMyMi0zLjM5M3oiIGZpbGw9IiNlZmVlZWEiLz48L2c+PGcgZmlsbD0iI2EyOWQ4NiIgc3Ryb2tlPSIjY2NjIiBzdHJva2Utd2lkdGg9Ii4yMTQiIHN0cm9rZS1saW5lam9pbj0iYmV2ZWwiPjxwYXRoIGQ9Ik01Ni4zODMgMTguODI2bDkuMzIzIDMuMzk0djEwLjk1N2wtOS4zMjMtMy4zOTR6IiBzdHlsZT0iaXNvbGF0aW9uOmF1dG87bWl4LWJsZW5kLW1vZGU6bm9ybWFsIiBjb2xvcj0iIzAwMCIgb3ZlcmZsb3c9InZpc2libGUiIGZpbGw9IiNlOWU5ZmYiLz48cGF0aCBkPSJNNDYuOTIzIDIyLjI3djEwLjk1N2w5LjQ2LTMuNDQ0VjE4LjgyNnoiIHN0eWxlPSJpc29sYXRpb246YXV0bzttaXgtYmxlbmQtbW9kZTpub3JtYWwiIGNvbG9yPSIjMDAwIiBvdmVyZmxvdz0idmlzaWJsZSIgZmlsbD0iIzM1MzU2NCIvPjxwYXRoIGQ9Ik00Ni45MjMgMzMuMjI3bDkuMzIyIDMuMzkzIDkuNDYtMy40NDMtOS4zMjItMy4zOTR6IiBzdHlsZT0iaXNvbGF0aW9uOmF1dG87bWl4LWJsZW5kLW1vZGU6bm9ybWFsIiBjb2xvcj0iIzAwMCIgb3ZlcmZsb3c9InZpc2libGUiIGZpbGw9IiNhZmFmZGUiLz48cGF0aCBkPSJNNDYuOTIzIDIyLjI3bDkuMzIyIDMuMzkzIDkuNDYtMy40NDMtOS4zMjItMy4zOTR6IiBmaWxsPSIjZjdmN2Y0Ii8+PHBhdGggZD0iTTU2LjI0NSAyNS42NjNWMzYuNjJsOS40Ni0zLjQ0M1YyMi4yMnoiIGZpbGw9IiNmZmQyNDIiLz48cGF0aCBkPSJNNDYuOTIzIDIyLjI3bDkuMzIyIDMuMzkzVjM2LjYybC05LjMyMi0zLjM5M3oiIGZpbGw9IiNlZmVlZWEiLz48L2c+PGcgZmlsbD0iI2EyOWQ4NiIgc3Ryb2tlPSIjY2NjIiBzdHJva2Utd2lkdGg9Ii4yMTQiIHN0cm9rZS1saW5lam9pbj0iYmV2ZWwiPjxwYXRoIHN0eWxlPSJpc29sYXRpb246YXV0bzttaXgtYmxlbmQtbW9kZTpub3JtYWwiIGQ9Ik01Ni4zODMgNy43Nmw5LjMyMyAzLjM5NFYyMi4xMWwtOS4zMjMtMy4zOTN6IiBjb2xvcj0iIzAwMCIgb3ZlcmZsb3c9InZpc2libGUiIGZpbGw9IiNlOWU5ZmYiLz48cGF0aCBzdHlsZT0iaXNvbGF0aW9uOmF1dG87bWl4LWJsZW5kLW1vZGU6bm9ybWFsIiBkPSJNNDYuOTIzIDExLjIwNHYxMC45NTdsOS40Ni0zLjQ0M1Y3Ljc2eiIgY29sb3I9IiMwMDAiIG92ZXJmbG93PSJ2aXNpYmxlIiBmaWxsPSIjMzUzNTY0Ii8+PHBhdGggc3R5bGU9Imlzb2xhdGlvbjphdXRvO21peC1ibGVuZC1tb2RlOm5vcm1hbCIgZD0iTTQ2LjkyMyAyMi4xNjFsOS4zMjIgMy4zOTMgOS40Ni0zLjQ0My05LjMyMi0zLjM5M3oiIGNvbG9yPSIjMDAwIiBvdmVyZmxvdz0idmlzaWJsZSIgZmlsbD0iI2FmYWZkZSIvPjxwYXRoIGQ9Ik00Ni45MjMgMTEuMjA0bDkuMzIyIDMuMzkzIDkuNDYtMy40NDMtOS4zMjItMy4zOTN6IiBmaWxsPSIjZmZjOTFkIi8+PHBhdGggZD0iTTU2LjI0NSAxNC41OTd2MTAuOTU3bDkuNDYtMy40NDNWMTEuMTU0eiIgZmlsbD0iI2ZmZDI0MiIvPjxwYXRoIGQ9Ik00Ni45MjMgMTEuMjA0bDkuMzIyIDMuMzkzdjEwLjk1N2wtOS4zMjItMy4zOTN6IiBmaWxsPSIjZWZlZWVhIi8+PC9nPjxnIGZpbGw9IiNhMjlkODYiIHN0cm9rZT0iI2NjYyIgc3Ryb2tlLXdpZHRoPSIuMjE0IiBzdHJva2UtbGluZWpvaW49ImJldmVsIj48cGF0aCBzdHlsZT0iaXNvbGF0aW9uOmF1dG87bWl4LWJsZW5kLW1vZGU6bm9ybWFsIiBkPSJNNDcuMDIgMjIuMjMxbDkuMzIyIDMuMzkzdjEwLjk1N2wtOS4zMjItMy4zOTN6IiBjb2xvcj0iIzAwMCIgb3ZlcmZsb3c9InZpc2libGUiIGZpbGw9IiNlOWU5ZmYiLz48cGF0aCBzdHlsZT0iaXNvbGF0aW9uOmF1dG87bWl4LWJsZW5kLW1vZGU6bm9ybWFsIiBkPSJNMzcuNTYgMjUuNjc1djEwLjk1N2w5LjQ2LTMuNDQ0VjIyLjIzMXoiIGNvbG9yPSIjMDAwIiBvdmVyZmxvdz0idmlzaWJsZSIgZmlsbD0iIzM1MzU2NCIvPjxwYXRoIHN0eWxlPSJpc29sYXRpb246YXV0bzttaXgtYmxlbmQtbW9kZTpub3JtYWwiIGQ9Ik0zNy41NiAzNi42MzJsOS4zMjIgMy4zOTMgOS40Ni0zLjQ0NC05LjMyMi0zLjM5M3oiIGNvbG9yPSIjMDAwIiBvdmVyZmxvdz0idmlzaWJsZSIgZmlsbD0iI2FmYWZkZSIvPjxwYXRoIGQ9Ik0zNy41NiAyNS42NzVsOS4zMjIgMy4zOTMgOS40Ni0zLjQ0NC05LjMyMi0zLjM5M3oiIGZpbGw9IiNmN2Y3ZjQiLz48cGF0aCBkPSJNNDYuODgyIDI5LjA2OHYxMC45NTdsOS40Ni0zLjQ0NFYyNS42MjR6IiBmaWxsPSIjZmZkMjQyIi8+PHBhdGggZD0iTTM3LjU2IDI1LjY3NWw5LjMyMiAzLjM5M3YxMC45NTdsLTkuMzIzLTMuMzkzeiIgZmlsbD0iI2VmZWVlYSIvPjwvZz48ZyBmaWxsPSIjYTI5ZDg2IiBzdHJva2U9IiNjY2MiIHN0cm9rZS13aWR0aD0iLjIxNCIgc3Ryb2tlLWxpbmVqb2luPSJiZXZlbCI+PHBhdGggZD0iTTQ3LjAyIDExLjE2Nmw5LjMyMiAzLjM5M3YxMC45NTdsLTkuMzIyLTMuMzkzeiIgc3R5bGU9Imlzb2xhdGlvbjphdXRvO21peC1ibGVuZC1tb2RlOm5vcm1hbCIgY29sb3I9IiMwMDAiIG92ZXJmbG93PSJ2aXNpYmxlIiBmaWxsPSIjZTllOWZmIi8+PHBhdGggZD0iTTM3LjU2IDE0LjYwOXYxMC45NTdsOS40Ni0zLjQ0M1YxMS4xNjZ6IiBzdHlsZT0iaXNvbGF0aW9uOmF1dG87bWl4LWJsZW5kLW1vZGU6bm9ybWFsIiBjb2xvcj0iIzAwMCIgb3ZlcmZsb3c9InZpc2libGUiIGZpbGw9IiMzNTM1NjQiLz48cGF0aCBkPSJNMzcuNTYgMjUuNTY2bDkuMzIyIDMuMzkzIDkuNDYtMy40NDMtOS4zMjItMy4zOTN6IiBzdHlsZT0iaXNvbGF0aW9uOmF1dG87bWl4LWJsZW5kLW1vZGU6bm9ybWFsIiBjb2xvcj0iIzAwMCIgb3ZlcmZsb3c9InZpc2libGUiIGZpbGw9IiNhZmFmZGUiLz48cGF0aCBkPSJNMzcuNTYgMTQuNjA5bDkuMzIyIDMuMzkzIDkuNDYtMy40NDMtOS4zMjItMy4zOTN6IiBmaWxsPSIjZjdmN2Y0Ii8+PHBhdGggZD0iTTQ2Ljg4MiAxOC4wMDJWMjguOTZsOS40Ni0zLjQ0M1YxNC41NTl6IiBmaWxsPSIjMzc3NWE5Ii8+PHBhdGggZD0iTTM3LjU2IDE0LjYwOWw5LjMyMiAzLjM5M1YyOC45NmwtOS4zMjMtMy4zOTN6IiBmaWxsPSIjZWZlZWVhIi8+PC9nPjxnIGZpbGw9IiNhMjlkODYiIHN0cm9rZT0iI2NjYyIgc3Ryb2tlLXdpZHRoPSIuMjE0IiBzdHJva2UtbGluZWpvaW49ImJldmVsIj48cGF0aCBzdHlsZT0iaXNvbGF0aW9uOmF1dG87bWl4LWJsZW5kLW1vZGU6bm9ybWFsIiBkPSJNNDcuMDIuMWw5LjMyMiAzLjM5M1YxNC40NWwtOS4zMjItMy4zOTN6IiBjb2xvcj0iIzAwMCIgb3ZlcmZsb3c9InZpc2libGUiIGZpbGw9IiNlOWU5ZmYiLz48cGF0aCBzdHlsZT0iaXNvbGF0aW9uOmF1dG87bWl4LWJsZW5kLW1vZGU6bm9ybWFsIiBkPSJNMzcuNTYgMy41NDNWMTQuNWw5LjQ2LTMuNDQzVi4xeiIgY29sb3I9IiMwMDAiIG92ZXJmbG93PSJ2aXNpYmxlIiBmaWxsPSIjMzUzNTY0Ii8+PHBhdGggc3R5bGU9Imlzb2xhdGlvbjphdXRvO21peC1ibGVuZC1tb2RlOm5vcm1hbCIgZD0iTTM3LjU2IDE0LjVsOS4zMjIgMy4zOTMgOS40Ni0zLjQ0My05LjMyMi0zLjM5M3oiIGNvbG9yPSIjMDAwIiBvdmVyZmxvdz0idmlzaWJsZSIgZmlsbD0iI2FmYWZkZSIvPjxwYXRoIGQ9Ik0zNy41NiAzLjU0M2w5LjMyMiAzLjM5MyA5LjQ2LTMuNDQzTDQ3LjAyLjF6IiBmaWxsPSIjMmY2NDkxIi8+PHBhdGggZD0iTTQ2Ljg4MiA2LjkzNnYxMC45NTdsOS40Ni0zLjQ0M1YzLjQ5M3oiIGZpbGw9IiMzNzc1YTkiLz48cGF0aCBkPSJNMzcuNTYgMy41NDNsOS4zMjIgMy4zOTN2MTAuOTU3TDM3LjU1OSAxNC41eiIgZmlsbD0iI2VmZWVlYSIvPjwvZz48ZyBmaWxsPSIjYTI5ZDg2IiBzdHJva2U9IiNjY2MiIHN0cm9rZS13aWR0aD0iLjIxNCIgc3Ryb2tlLWxpbmVqb2luPSJiZXZlbCI+PHBhdGggZD0iTTM3LjY1NyAyNS42MzZsOS4zMjIgMy4zOTN2MTAuOTU3bC05LjMyMi0zLjM5M3oiIHN0eWxlPSJpc29sYXRpb246YXV0bzttaXgtYmxlbmQtbW9kZTpub3JtYWwiIGNvbG9yPSIjMDAwIiBvdmVyZmxvdz0idmlzaWJsZSIgZmlsbD0iI2U5ZTlmZiIvPjxwYXRoIGQ9Ik0yOC4xOTYgMjkuMDh2MTAuOTU2bDkuNDYtMy40NDNWMjUuNjM2eiIgc3R5bGU9Imlzb2xhdGlvbjphdXRvO21peC1ibGVuZC1tb2RlOm5vcm1hbCIgY29sb3I9IiMwMDAiIG92ZXJmbG93PSJ2aXNpYmxlIiBmaWxsPSIjMzUzNTY0Ii8+PHBhdGggZD0iTTI4LjE5NiA0MC4wMzZsOS4zMjMgMy4zOTQgOS40Ni0zLjQ0NC05LjMyMi0zLjM5M3oiIHN0eWxlPSJpc29sYXRpb246YXV0bzttaXgtYmxlbmQtbW9kZTpub3JtYWwiIGNvbG9yPSIjMDAwIiBvdmVyZmxvdz0idmlzaWJsZSIgZmlsbD0iI2FmYWZkZSIvPjxwYXRoIGQ9Ik0yOC4xOTYgMjkuMDhsOS4zMjMgMy4zOTMgOS40Ni0zLjQ0NC05LjMyMi0zLjM5M3oiIGZpbGw9IiNmN2Y3ZjQiLz48cGF0aCBkPSJNMzcuNTE5IDMyLjQ3M1Y0My40M2w5LjQ2LTMuNDQ0VjI5LjAzeiIgZmlsbD0iI2ZmZDI0MiIvPjxwYXRoIGQ9Ik0yOC4xOTYgMjkuMDhsOS4zMjMgMy4zOTNWNDMuNDNsLTkuMzIzLTMuMzk0eiIgZmlsbD0iI2VmZWVlYSIvPjwvZz48ZyBmaWxsPSIjYTI5ZDg2IiBzdHJva2U9IiNjY2MiIHN0cm9rZS13aWR0aD0iLjIxNCIgc3Ryb2tlLWxpbmVqb2luPSJiZXZlbCI+PHBhdGggc3R5bGU9Imlzb2xhdGlvbjphdXRvO21peC1ibGVuZC1tb2RlOm5vcm1hbCIgZD0iTTM3LjY1NyAxNC41N2w5LjMyMiAzLjM5NFYyOC45MmwtOS4zMjItMy4zOTR6IiBjb2xvcj0iIzAwMCIgb3ZlcmZsb3c9InZpc2libGUiIGZpbGw9IiNlOWU5ZmYiLz48cGF0aCBzdHlsZT0iaXNvbGF0aW9uOmF1dG87bWl4LWJsZW5kLW1vZGU6bm9ybWFsIiBkPSJNMjguMTk2IDE4LjAxNFYyOC45N2w5LjQ2LTMuNDQ0VjE0LjU3eiIgY29sb3I9IiMwMDAiIG92ZXJmbG93PSJ2aXNpYmxlIiBmaWxsPSIjMzUzNTY0Ii8+PHBhdGggc3R5bGU9Imlzb2xhdGlvbjphdXRvO21peC1ibGVuZC1tb2RlOm5vcm1hbCIgZD0iTTI4LjE5NiAyOC45N2w5LjMyMyAzLjM5NCA5LjQ2LTMuNDQzLTkuMzIyLTMuMzk0eiIgY29sb3I9IiMwMDAiIG92ZXJmbG93PSJ2aXNpYmxlIiBmaWxsPSIjYWZhZmRlIi8+PHBhdGggZD0iTTI4LjE5NiAxOC4wMTRsOS4zMjMgMy4zOTMgOS40Ni0zLjQ0My05LjMyMi0zLjM5NHoiIGZpbGw9IiNmN2Y3ZjQiLz48cGF0aCBkPSJNMzcuNTE5IDIxLjQwN3YxMC45NTdsOS40Ni0zLjQ0M1YxNy45NjR6IiBmaWxsPSIjMzc3NWE5Ii8+PHBhdGggZD0iTTI4LjE5NiAxOC4wMTRsOS4zMjMgMy4zOTN2MTAuOTU3bC05LjMyMy0zLjM5M3oiIGZpbGw9IiNlZmVlZWEiLz48L2c+PGcgZmlsbD0iI2EyOWQ4NiIgc3Ryb2tlPSIjY2NjIiBzdHJva2Utd2lkdGg9Ii4yMTQiIHN0cm9rZS1saW5lam9pbj0iYmV2ZWwiPjxwYXRoIHN0eWxlPSJpc29sYXRpb246YXV0bzttaXgtYmxlbmQtbW9kZTpub3JtYWwiIGQ9Ik0yOC4yOTMgMjkuMDRsOS4zMjMgMy4zOTR2MTAuOTU3bC05LjMyMy0zLjM5M3oiIGNvbG9yPSIjMDAwIiBvdmVyZmxvdz0idmlzaWJsZSIgZmlsbD0iI2U5ZTlmZiIvPjxwYXRoIHN0eWxlPSJpc29sYXRpb246YXV0bzttaXgtYmxlbmQtbW9kZTpub3JtYWwiIGQ9Ik0xOC44MzMgMzIuNDg0djEwLjk1N2w5LjQ2LTMuNDQzVjI5LjA0eiIgY29sb3I9IiMwMDAiIG92ZXJmbG93PSJ2aXNpYmxlIiBmaWxsPSIjMzUzNTY0Ii8+PHBhdGggc3R5bGU9Imlzb2xhdGlvbjphdXRvO21peC1ibGVuZC1tb2RlOm5vcm1hbCIgZD0iTTE4LjgzMyA0My40NDFsOS4zMjIgMy4zOTMgOS40Ni0zLjQ0My05LjMyMi0zLjM5M3oiIGNvbG9yPSIjMDAwIiBvdmVyZmxvdz0idmlzaWJsZSIgZmlsbD0iI2FmYWZkZSIvPjxwYXRoIGQ9Ik0xOC44MzMgMzIuNDg0bDkuMzIyIDMuMzkzIDkuNDYtMy40NDMtOS4zMjItMy4zOTN6IiBmaWxsPSIjZjdmN2Y0Ii8+PHBhdGggZD0iTTI4LjE1NSAzNS44Nzd2MTAuOTU3bDkuNDYtMy40NDNWMzIuNDM0eiIgZmlsbD0iIzM3NzVhOSIvPjxwYXRoIGQ9Ik0xOC44MzMgMzIuNDg0bDkuMzIyIDMuMzkzdjEwLjk1N2wtOS4zMjItMy4zOTN6IiBmaWxsPSIjMmY2NDkxIi8+PC9nPjxnIGZpbGw9IiNhMjlkODYiIHN0cm9rZT0iI2NjYyIgc3Ryb2tlLXdpZHRoPSIuMjE0IiBzdHJva2UtbGluZWpvaW49ImJldmVsIj48cGF0aCBkPSJNMjguMjkzIDE3Ljk3NWw5LjMyMyAzLjM5M3YxMC45NTdsLTkuMzIzLTMuMzkzeiIgc3R5bGU9Imlzb2xhdGlvbjphdXRvO21peC1ibGVuZC1tb2RlOm5vcm1hbCIgY29sb3I9IiMwMDAiIG92ZXJmbG93PSJ2aXNpYmxlIiBmaWxsPSIjZTllOWZmIi8+PHBhdGggZD0iTTE4LjgzMyAyMS40MTl2MTAuOTU3bDkuNDYtMy40NDRWMTcuOTc1eiIgc3R5bGU9Imlzb2xhdGlvbjphdXRvO21peC1ibGVuZC1tb2RlOm5vcm1hbCIgY29sb3I9IiMwMDAiIG92ZXJmbG93PSJ2aXNpYmxlIiBmaWxsPSIjMzUzNTY0Ii8+PHBhdGggZD0iTTE4LjgzMyAzMi4zNzZsOS4zMjIgMy4zOTMgOS40Ni0zLjQ0NC05LjMyMi0zLjM5M3oiIHN0eWxlPSJpc29sYXRpb246YXV0bzttaXgtYmxlbmQtbW9kZTpub3JtYWwiIGNvbG9yPSIjMDAwIiBvdmVyZmxvdz0idmlzaWJsZSIgZmlsbD0iI2FmYWZkZSIvPjxwYXRoIGQ9Ik0xOC44MzMgMjEuNDE5bDkuMzIyIDMuMzkzIDkuNDYtMy40NDQtOS4zMjItMy4zOTN6IiBmaWxsPSIjMmY2NDkxIi8+PHBhdGggZD0iTTI4LjE1NSAyNC44MTJ2MTAuOTU3bDkuNDYtMy40NDRWMjEuMzY4eiIgZmlsbD0iIzM3NzVhOSIvPjxwYXRoIGQ9Ik0xOC44MzMgMjEuNDE5bDkuMzIyIDMuMzkzdjEwLjk1N2wtOS4zMjItMy4zOTN6IiBmaWxsPSIjMmY2NDkxIi8+PC9nPjxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xNjgzLjY2IC01MTMuMjc1KSBzY2FsZSguNjUxNzcpIj48ZyBmaWxsPSIjYTI5ZDg2IiBzdHJva2U9IiNjY2MiIHN0cm9rZS13aWR0aD0iLjMyOCIgc3Ryb2tlLWxpbmVqb2luPSJiZXZlbCI+PHBhdGggc3R5bGU9Imlzb2xhdGlvbjphdXRvO21peC1ibGVuZC1tb2RlOm5vcm1hbCIgZD0iTTI2NDAuOTgzIDc5Mi44ODVsMTQuMzA0IDUuMjA2djE2LjgxMWwtMTQuMzA0LTUuMjA2eiIgY29sb3I9IiMwMDAiIG92ZXJmbG93PSJ2aXNpYmxlIiBmaWxsPSIjZTllOWZmIi8+PHBhdGggc3R5bGU9Imlzb2xhdGlvbjphdXRvO21peC1ibGVuZC1tb2RlOm5vcm1hbCIgZD0iTTI2MjYuNDY4IDc5OC4xNjh2MTYuODExbDE0LjUxNS01LjI4M3YtMTYuODExeiIgY29sb3I9IiMwMDAiIG92ZXJmbG93PSJ2aXNpYmxlIiBmaWxsPSIjMzUzNTY0Ii8+PHBhdGggc3R5bGU9Imlzb2xhdGlvbjphdXRvO21peC1ibGVuZC1tb2RlOm5vcm1hbCIgZD0iTTI2MjYuNDY4IDgxNC45NzlsMTQuMzA0IDUuMjA2IDE0LjUxNS01LjI4My0xNC4zMDQtNS4yMDZ6IiBjb2xvcj0iIzAwMCIgb3ZlcmZsb3c9InZpc2libGUiIGZpbGw9IiNhZmFmZGUiLz48cGF0aCBkPSJNMjYyNi40NjggNzk4LjE2OGwxNC4zMDQgNS4yMDYgMTQuNTE1LTUuMjgzLTE0LjMwNC01LjIwNnoiIGZpbGw9IiMyZjY0OTEiLz48cGF0aCBkPSJNMjY0MC43NzIgODAzLjM3NHYxNi44MTFsMTQuNTE1LTUuMjgzdi0xNi44MTF6IiBmaWxsPSIjMzc3NWE5Ii8+PHBhdGggZD0iTTI2MjYuNDY4IDc5OC4xNjhsMTQuMzA0IDUuMjA2djE2LjgxMWwtMTQuMzA0LTUuMjA2eiIgZmlsbD0iIzJmNjQ5MSIvPjwvZz48Y2lyY2xlIHRyYW5zZm9ybT0ic2tld1koLTIwKSBzY2FsZSguOTM5NyAxKSIgY3k9IjE3NzIuOTIyIiBjeD0iMjgxNi4wMTciIHI9IjIuOTY3IiBmaWxsPSIjZmZmIi8+PC9nPjwvc3ZnPg==">
+        <h1 class="viewport-section__heading">Sorry, something went wrong</h1>
 
-    <!-- Accessibility: this link should always be the first piece of content inside the body-->
-    <a href="#content" class="skip-to-content">Skip to main content</a>
-
-    <button type="button" class="button button--primary button--switch-to-mobile hidden" data-target="viewport-toggle.switchToMobile" data-action="viewport-toggle#switchToMobile">
-      Switch to mobile version
-    </button>
-
-    <div id="sticky-notifications" class="stick-to-top js-stick-to-top">
-      <!-- Add browser warning. Will show for ie9 and below -->
-      <!--[if IE]>
-      <div class="notification-bar notification-bar--warning" role="status">
-        <span class="notification-bar__icon">
-          <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
-          <span class="sr-only">Warning</span>
-        </span>
-        <span class="notification-bar__message">You are using an unsupported browser, upgrade to a newer version.</span>
-      </div>
-      <![endif]-->
-      
-      <noscript>
-      <div class="notification-bar notification-bar--warning" role="status">
-        
-        <span class="notification-bar__icon">
-          <i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
-          <span class="sr-only">Warning</span>
-        </span>
-        <span class="notification-bar__message">Some features may not work without JavaScript. Please try enabling it if you encounter problems.</span>
-      </div>
-      </noscript>
-
-      
-        <div data-html-include="/_includes/notification-banners/">
-        </div>
-      
-    </div>
-
-    
-      <div data-html-include="/_includes/flash-messages/">
-      </div>
-    
-
-    
-
-    
-      <div data-html-include="/_includes/session-notifications/">
-      </div>
-    
-
-    <header class="site-header ">
-      <div class="site-container">
-        <div class="split-layout">
-          
-          <div class="split-layout">
-            <div>
-              <a class="site-header__logo" href="/">
-                <img alt="PyPI" src="/static/images/logo-small.95de8436.svg">
-              </a>
-            </div>
-
-            <form class="search-form search-form--primary" action="/search/" role="search">
-              <label for="search" class="sr-only">Search PyPI</label>
-              <input id="search" class="search-form__search" type="text" name="q" placeholder="Search projects" value="" autocomplete="off" autocapitalize="off" spellcheck="false" data-controller="search-focus" data-action="keydown@window->search-focus#focusSearchField" data-target="search-focus.searchField">
-              
-              <button type="submit" class="search-form__button">
-                <i class="fa fa-search" aria-hidden="true"></i>
-                <span class="sr-only">Search</span>
-              </button>
-            </form>
-          </div>
-          
-
-          <div data-html-include="/_includes/current-user-indicator/">
-            <div id="user-indicator" class="horizontal-menu horizontal-menu--light horizontal-menu--tall">
-  <nav class="horizontal-menu horizontal-menu--light horizontal-menu--tall hide-on-tablet" aria-label="Main navigation">
-    <ul>
-      <li class="horizontal-menu__item"><a href="/help/" class="horizontal-menu__link">Help</a></li>
-      <li class="horizontal-menu__item"><a href="/sponsors/" class="horizontal-menu__link">Sponsors</a></li>
-      <li class="horizontal-menu__item"><a href="/account/login/" class="horizontal-menu__link">Log in</a></li>
-      <li class="horizontal-menu__item"><a href="/account/register/" class="horizontal-menu__link">Register</a></li>
-    </ul>
-  </nav>
-  <nav class="dropdown dropdown--on-menu hidden show-on-tablet" aria-label="Main navigation">
-    <button type="button" class="horizontal-menu__link dropdown__trigger" aria-haspopup="true" aria-expanded="false" aria-label="View menu">
-      Menu
-      <span class="dropdown__trigger-caret">
-        <i class="fa fa-caret-down" aria-hidden="true"></i>
-      </span>
-    </button>
-    <ul class="dropdown__content" aria-hidden="true" aria-label="Main menu">
-      <li><a class="dropdown__link" href="/help/">Help</a></li>
-      <li><a class="dropdown__link" href="/sponsors/">Sponsors</a></li>
-      <li><a class="dropdown__link" href="/account/login/">Log in</a></li>
-      <li><a class="dropdown__link" href="/account/register/">Register</a></li>
-    </ul>
-  </nav>
-</div>
-          </div>
-        </div>
-      </div>
-    </header>
-
-    
-    <div class="mobile-search">
-      <form class="search-form search-form--fullwidth" action="/search/" role="search">
-        <label for="mobile-search" class="sr-only">Search PyPI</label>
-        <input id="mobile-search" class="search-form__search" type="text" name="q" placeholder="Search projects" value="" autocomplete="off" autocapitalize="off" spellcheck="false">
-        
-        <button type="submit" class="search-form__button">
-          <i class="fa fa-search" aria-hidden="true"></i>
-          <span class="sr-only">Search</span>
-        </button>
-      </form>
-    </div>
-    
-
-    <main id="content">
-      
-<div class="horizontal-section horizontal-section--medium">
-  <div class="left-layout">
-    <div class="left-layout__sidebar">
-      <div class="author-profile">
-        
-        <img src="https://warehouse-camo.ingress.cmh1.psfhosted.org/aa51b6e3bfcadd1b7afbe1c5850dfd60324c1277/68747470733a2f2f7365637572652e67726176617461722e636f6d2f6176617461722f65303135643833363236343562663461313332633039326133393964303630623f73697a653d323235" alt="Avatar for Michael R. Buche from gravatar.com" title="Avatar for Michael R. Buche from gravatar.com">
-        <div class="author-profile__info">
-          
-          <h1 class="author-profile__name">Michael R. Buche</h1>
-          
-          <div class="author-profile__meta">
-            <div class="author-profile__metadiv">
-              <i class="fa fa-user-circle" aria-hidden="true"></i>
-              <span class="sr-only">Username</span>
-              &nbsp;&nbsp;
-              <span class="break">mrbuche</span>
-            </div>
-            
-            
-            <div class="author-profile__metadiv">
-              <i class="fa fa-calendar-alt" aria-hidden="true"></i>
-              <span class="sr-only">Date joined</span>
-              &nbsp;&nbsp;Joined <time datetime="2021-11-28T17:39:47+0000" data-controller="localized-time" data-localized-time-relative="true" data-localized-time-show-time="false">
-  Nov 28, 2021
-</time>
-            </div>
-            
-          </div>
-          <div data-html-include="/_includes/profile-actions/mrbuche">
-          </div>
-        </div>
-
-      </div>
-    </div>
-
-    <div class="left-layout__main">
-      <h2>
-        
-          
-            3 projects
-          
-        
-      </h2>
-      <div class="package-list">
-        
-        
-        <a class="package-snippet" href="/project/ufjc/">
-          <h3 class="package-snippet__title">ufjc</h3>
-          <p class="package-snippet__meta">
-            Last released <time datetime="2022-04-09T17:26:25+0000" data-controller="localized-time" data-localized-time-relative="true" data-localized-time-show-time="false">
-  Apr 9, 2022
-</time>
+        <div class="viewport-section__text">
+          <p>PyPI is down for maintenance or is having an outage.</p>
+          <p>
+            This is affecting several of our services, including our web interface.</br>
+            If you are trying to install a package, you should be able to <strong>pip install</strong> packages without problem.
           </p>
-          <p class="package-snippet__description">The Python package for the uFJC single-chain model.</p>
-        </a>
-        
-        <a class="package-snippet" href="/project/buche-silberstein-model-2020/">
-          <h3 class="package-snippet__title">Buche-Silberstein-model-2020</h3>
-          <p class="package-snippet__meta">
-            Last released <time datetime="2021-05-24T16:24:19+0000" data-controller="localized-time" data-localized-time-relative="true" data-localized-time-show-time="false">
-  May 24, 2021
-</time>
+
+          <ul class="unstyled">
+            <li><a href="https://status.python.org/">Check our status page</a>, or</li>
+            <li><a href="https://twitter.com/PythonStatus">View Python Status on Twitter</a></li>
+          </ul>
+
+          <hr>
+
+          <p>
+            <strong>
+              Rely on PyPI to get your job done?</br>
+              Consider <a href="https://github.com/pypa/warehouse">contributing</a> or <a href="https://psfmember.org/civicrm/contribute/transact?reset=1&id=13">donating</a> to help us build a more stable and secure platform.
+            </strong>
           </p>
-          <p class="package-snippet__description">This is the Python package corresponding to: Buche, Michael R., and Meredith N. Silberstein. Statistical mechanical constitutive theory of polymer networks: The inextricable links between distribution, behavior, and ensemble. Physical Review E, 102, 012501 (2020).</p>
-        </a>
-        
-        <a class="package-snippet" href="/project/chain-breaking-polymer-networks/">
-          <h3 class="package-snippet__title">chain-breaking-polymer-networks</h3>
-          <p class="package-snippet__meta">
-            Last released <time datetime="2021-04-15T22:20:33+0000" data-controller="localized-time" data-localized-time-relative="true" data-localized-time-show-time="false">
-  Apr 15, 2021
-</time>
-          </p>
-          <p class="package-snippet__description">Chain breaking in the statistical mechanical constitutive theory of polymer networks</p>
-        </a>
-        
-        
+        </div>
       </div>
     </div>
-  </div>
-</div>
-
-
-
-    </main>
-
-    <footer class="footer">
-      <div class="footer__logo">
-        <img src="/static/images/white-cube.8c3a6fe9.svg" alt="" class="-js-white-cube">
-      </div>
-
-      <div class="footer__menus">
-        <div class="footer__menu">
-          <h2>Help</h2>
-          <nav aria-label="Help navigation">
-            <ul>
-              <li><a href="https://packaging.python.org/installing/" title="External link" target="_blank" rel="noopener">Installing packages</a></li>
-              <li><a href="https://packaging.python.org/tutorials/packaging-projects/" title="External link" target="_blank" rel="noopener">Uploading packages</a></li>
-              <li><a href="https://packaging.python.org/" title="External link" target="_blank" rel="noopener">User guide</a></li>
-              <li><a href="/help/">FAQs</a></li>
-            </ul>
-          </nav>
-        </div>
-
-        <div class="footer__menu">
-          <h2>About PyPI</h2>
-          <nav aria-label="About PyPI navigation">
-            <ul>
-              <li><a href="https://twitter.com/PyPI" title="External link" target="_blank" rel="noopener">PyPI on Twitter</a></li>
-              <li><a href="https://dtdg.co/pypi" title="External link" target="_blank" rel="noopener">Infrastructure dashboard</a></li>
-              <li><a href="https://www.python.org/dev/peps/pep-0541/" title="External link" target="_blank" rel="noopener">Package index name retention</a></li>
-              <li><a href="/sponsors/">Our sponsors</a></li>
-            </ul>
-          </nav>
-        </div>
-
-        <div class="footer__menu">
-          <h2>Contributing to PyPI</h2>
-          <nav aria-label="How to contribute navigation">
-            <ul>
-              <li><a href="/help/#feedback">Bugs and feedback</a></li>
-              <li><a href="https://github.com/pypa/warehouse" title="External link" target="_blank" rel="noopener">Contribute on GitHub</a></li>
-              <li><a href="https://hosted.weblate.org/projects/pypa/warehouse/" title="External link" target="_blank" rel="noopener">Translate PyPI</a></li>
-              <li><a href="https://github.com/pypa/warehouse/graphs/contributors" title="External link" target="_blank" rel="noopener">Development credits</a></li>
-            </ul>
-          </nav>
-        </div>
-
-        <div class="footer__menu">
-          <h2>Using PyPI</h2>
-          <nav aria-label="Using PyPI navigation">
-            <ul>
-              <li><a href="https://github.com/pypa/.github/blob/main/CODE_OF_CONDUCT.md" title="External link" target="_blank" rel="noopener">Code of conduct</a></li>
-              <li><a href="/security/">Report security issue</a></li>
-              <li><a href="https://www.python.org/privacy/" title="External link" target="_blank" rel="noopener">Privacy policy</a></li>
-              <li><a href="/policy/terms-of-use/">Terms of use</a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-
-      <hr class="footer__divider">
-
-      <div class="footer__text">
-        
-        <p>Status: <a href="https://status.python.org/" title="External link" target="_blank" rel="noopener">
-          <span data-statuspage-domain="https://2p66nmmycsj3.statuspage.io">all systems operational</span></a>
-        </p>
-        
-        <p>
-          Developed and maintained by the Python community, for the Python community.
-          <br>
-          <a href="https://donate.pypi.org">Donate today!</a>
-        </p>
-        <p>© 2022 <a href="https://www.python.org/psf/" title="External link" target="_blank" rel="noopener">Python Software Foundation</a><br>
-          <a href="/sitemap/">Site map</a>
-        </p>
-      </div>
-
-      <div class="centered hide-on-desktop">
-        <button type="button" class="button button--switch-to-desktop hidden" data-target="viewport-toggle.switchToDesktop" data-action="viewport-toggle#switchToDesktop">
-          Switch to desktop version
-        </button>
-      </div>
-    </footer>
-
-
-    <div class="language-switcher">
-      <form action="/locale/">
-        <ul>
-          
-          <li>
-            <button
-              
-              class="language-switcher__selected"
-              
-              name="locale_id" value="en" type="submit"
-            >
-              English
-            </button>
-          </li>
-          
-          <li>
-            <button
-              
-              name="locale_id" value="es" type="submit"
-            >
-              español
-            </button>
-          </li>
-          
-          <li>
-            <button
-              
-              name="locale_id" value="fr" type="submit"
-            >
-              français
-            </button>
-          </li>
-          
-          <li>
-            <button
-              
-              name="locale_id" value="ja" type="submit"
-            >
-              日本語
-            </button>
-          </li>
-          
-          <li>
-            <button
-              
-              name="locale_id" value="pt_BR" type="submit"
-            >
-              português (Brasil)
-            </button>
-          </li>
-          
-          <li>
-            <button
-              
-              name="locale_id" value="uk" type="submit"
-            >
-              українська
-            </button>
-          </li>
-          
-          <li>
-            <button
-              
-              name="locale_id" value="el" type="submit"
-            >
-              Ελληνικά
-            </button>
-          </li>
-          
-          <li>
-            <button
-              
-              name="locale_id" value="de" type="submit"
-            >
-              Deutsch
-            </button>
-          </li>
-          
-          <li>
-            <button
-              
-              name="locale_id" value="zh_Hans" type="submit"
-            >
-              中文 (简体)
-            </button>
-          </li>
-          
-          <li>
-            <button
-              
-              name="locale_id" value="zh_Hant" type="submit"
-            >
-              中文 (繁體)
-            </button>
-          </li>
-          
-          <li>
-            <button
-              
-              name="locale_id" value="ru" type="submit"
-            >
-              русский
-            </button>
-          </li>
-          
-          <li>
-            <button
-              
-              name="locale_id" value="he" type="submit"
-            >
-              עברית
-            </button>
-          </li>
-          
-          <li>
-            <button
-              
-              name="locale_id" value="eo" type="submit"
-            >
-              esperanto
-            </button>
-          </li>
-          
-        </ul>
-      </form>
-    </div>
-
-
-    <div class="sponsors">
-  <p class="sponsors__title">Supported by</p>
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-      
-      
-        <a class="sponsors__sponsor" target="_blank" rel="noopener" href="https://aws.amazon.com/">
-          <img class=sponsors__image src="https://warehouse-camo.ingress.cmh1.psfhosted.org/ed7074cadad1a06f56bc520ad9bd3e00d0704c5b/68747470733a2f2f73746f726167652e676f6f676c65617069732e636f6d2f707970692d6173736574732f73706f6e736f726c6f676f732f6177732d77686974652d6c6f676f2d7443615473387a432e706e67" alt=AWS>
-          <span class="sponsors__name">AWS</span>
-          <span class="sponsors__service">
-          
-          
-            Cloud computing
-          
-          </span>
-        </a>
-      
-    
-  
-    
-    
-  
-    
-    
-      
-      
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-      
-      
-    
-  
-    
-    
-  
-    
-    
-      
-      
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-      
-      
-        <a class="sponsors__sponsor" target="_blank" rel="noopener" href="https://www.datadoghq.com/">
-          <img class=sponsors__image src="https://warehouse-camo.ingress.cmh1.psfhosted.org/8855f7c063a3bdb5b0ce8d91bfc50cf851cc5c51/68747470733a2f2f73746f726167652e676f6f676c65617069732e636f6d2f707970692d6173736574732f73706f6e736f726c6f676f732f64617461646f672d77686974652d6c6f676f2d6668644c4e666c6f2e706e67" alt=Datadog>
-          <span class="sponsors__name">Datadog</span>
-          <span class="sponsors__service">
-          
-          
-            Monitoring
-          
-          </span>
-        </a>
-      
-    
-  
-    
-    
-  
-    
-    
-      
-      
-    
-  
-    
-    
-      
-      
-        <a class="sponsors__sponsor" target="_blank" rel="noopener" href="https://research.fb.com/">
-          <img class=sponsors__image src="https://warehouse-camo.ingress.cmh1.psfhosted.org/e338a8302eed851d9793e0a4a92f57b315eb5998/68747470733a2f2f73746f726167652e676f6f676c65617069732e636f6d2f707970692d6173736574732f73706f6e736f726c6f676f732f66616365626f6f6b2d696e7374616772616d2d77686974652d6c6f676f2d6750686a57647a722e706e67" alt="Facebook / Instagram">
-          <span class="sponsors__name">Facebook / Instagram</span>
-          <span class="sponsors__service">
-          
-          
-            PSF Sponsor
-          
-          </span>
-        </a>
-      
-    
-  
-    
-    
-      
-      
-        <a class="sponsors__sponsor" target="_blank" rel="noopener" href="https://www.fastly.com/">
-          <img class=sponsors__image src="https://warehouse-camo.ingress.cmh1.psfhosted.org/df6fe8829cbff2d7f668d98571df1fd011f36192/68747470733a2f2f73746f726167652e676f6f676c65617069732e636f6d2f707970692d6173736574732f73706f6e736f726c6f676f732f666173746c792d77686974652d6c6f676f2d65684d3077735f6f2e706e67" alt=Fastly>
-          <span class="sponsors__name">Fastly</span>
-          <span class="sponsors__service">
-          
-          
-            CDN
-          
-          </span>
-        </a>
-      
-    
-  
-    
-    
-  
-    
-    
-      
-      
-        <a class="sponsors__sponsor" target="_blank" rel="noopener" href="https://careers.google.com/">
-          <img class=sponsors__image src="https://warehouse-camo.ingress.cmh1.psfhosted.org/420cc8cf360bac879e24c923b2f50ba7d1314fb0/68747470733a2f2f73746f726167652e676f6f676c65617069732e636f6d2f707970692d6173736574732f73706f6e736f726c6f676f732f676f6f676c652d77686974652d6c6f676f2d616734424e3774332e706e67" alt=Google>
-          <span class="sponsors__name">Google</span>
-          <span class="sponsors__service">
-          
-          
-            Object Storage and Download Analytics
-          
-          </span>
-        </a>
-      
-    
-  
-    
-    
-  
-    
-    
-      
-      
-        <a class="sponsors__sponsor" target="_blank" rel="noopener" href="https://www.python.org/psf/sponsors/#huawei">
-          <img class=sponsors__image src="https://warehouse-camo.ingress.cmh1.psfhosted.org/656ae2011c837dba1e2de4c8f85815eed86c0878/68747470733a2f2f73746f726167652e676f6f676c65617069732e636f6d2f707970692d6173736574732f73706f6e736f726c6f676f732f6875617765692d77686974652d6c6f676f2d416a465f553652312e706e67" alt=Huawei>
-          <span class="sponsors__name">Huawei</span>
-          <span class="sponsors__service">
-          
-          
-            PSF Sponsor
-          
-          </span>
-        </a>
-      
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-      
-      
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-      
-      
-        <a class="sponsors__sponsor" target="_blank" rel="noopener" href="https://www.python.org/psf/sponsors/#microsoft">
-          <img class=sponsors__image src="https://warehouse-camo.ingress.cmh1.psfhosted.org/524d1ce72f7772294ca4c1fe05d21dec8fa3f8ea/68747470733a2f2f73746f726167652e676f6f676c65617069732e636f6d2f707970692d6173736574732f73706f6e736f726c6f676f732f6d6963726f736f66742d77686974652d6c6f676f2d5a443172685444462e706e67" alt=Microsoft>
-          <span class="sponsors__name">Microsoft</span>
-          <span class="sponsors__service">
-          
-          
-            PSF Sponsor
-          
-          </span>
-        </a>
-      
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-      
-      
-        <a class="sponsors__sponsor" target="_blank" rel="noopener" href="https://www.python.org/psf/sponsors/#nvidia">
-          <img class=sponsors__image src="https://warehouse-camo.ingress.cmh1.psfhosted.org/19eae9e26a9a9ffacc134095642b1392737c58fb/68747470733a2f2f73746f726167652e676f6f676c65617069732e636f6d2f707970692d6173736574732f73706f6e736f726c6f676f732f6e76696469612d77686974652d6c6f676f2d46394c393761474c2e706e67" alt=NVIDIA>
-          <span class="sponsors__name">NVIDIA</span>
-          <span class="sponsors__service">
-          
-          
-            PSF Sponsor
-          
-          </span>
-        </a>
-      
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-      
-      
-        <a class="sponsors__sponsor" target="_blank" rel="noopener" href="https://www.pingdom.com/">
-          <img class=sponsors__image src="https://warehouse-camo.ingress.cmh1.psfhosted.org/d01053c02f3a626b73ffcb06b96367fdbbf9e230/68747470733a2f2f73746f726167652e676f6f676c65617069732e636f6d2f707970692d6173736574732f73706f6e736f726c6f676f732f70696e67646f6d2d77686974652d6c6f676f2d67355831547546362e706e67" alt=Pingdom>
-          <span class="sponsors__name">Pingdom</span>
-          <span class="sponsors__service">
-          
-          
-            Monitoring
-          
-          </span>
-        </a>
-      
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-      
-      
-        <a class="sponsors__sponsor" target="_blank" rel="noopener" href="https://opensource.salesforce.com/">
-          <img class=sponsors__image src="https://warehouse-camo.ingress.cmh1.psfhosted.org/932f54a6c688f0bbc0e2f4e7b7dc5c067eed6c55/68747470733a2f2f73746f726167652e676f6f676c65617069732e636f6d2f707970692d6173736574732f73706f6e736f726c6f676f732f73616c6573666f7263652d77686974652d6c6f676f2d4539677a3053782d2e706e67" alt=Salesforce>
-          <span class="sponsors__name">Salesforce</span>
-          <span class="sponsors__service">
-          
-          
-            PSF Sponsor
-          
-          </span>
-        </a>
-      
-    
-  
-    
-    
-  
-    
-    
-      
-      
-        <a class="sponsors__sponsor" target="_blank" rel="noopener" href="https://getsentry.com/for/python">
-          <img class=sponsors__image src="https://warehouse-camo.ingress.cmh1.psfhosted.org/b1dc2c04aa1a8efbacd6dc6254bb63429af47b41/68747470733a2f2f73746f726167652e676f6f676c65617069732e636f6d2f707970692d6173736574732f73706f6e736f726c6f676f732f73656e7472792d77686974652d6c6f676f2d31556836754c32452e706e67" alt=Sentry>
-          <span class="sponsors__name">Sentry</span>
-          <span class="sponsors__service">
-          
-          
-            Error logging
-          
-          </span>
-        </a>
-      
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-      
-      
-        <a class="sponsors__sponsor" target="_blank" rel="noopener" href="https://statuspage.io">
-          <img class=sponsors__image src="https://warehouse-camo.ingress.cmh1.psfhosted.org/b611884ff90435a0575dbab7d9b0d3e60f136466/68747470733a2f2f73746f726167652e676f6f676c65617069732e636f6d2f707970692d6173736574732f73706f6e736f726c6f676f732f737461747573706167652d77686974652d6c6f676f2d5467476c6a4a2d502e706e67" alt=StatusPage>
-          <span class="sponsors__name">StatusPage</span>
-          <span class="sponsors__service">
-          
-          
-            Status page
-          
-          </span>
-        </a>
-      
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-    
-    
-  
-</div>
-
-    
   </body>
-
 </html>
