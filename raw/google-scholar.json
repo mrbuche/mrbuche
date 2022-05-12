@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "627b016cb7b1cc765b3b01df",
+    "id": "627c530cc7ad4144fa8a7241",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/6a9294f6c1bd8ed4/627b016cb7b1cc765b3b01df.json",
-    "created_at": "2022-05-11 00:21:00 UTC",
-    "processed_at": "2022-05-11 00:21:00 UTC",
+    "json_endpoint": "https://serpapi.com/searches/6a9294f6c1bd8ed4/627c530cc7ad4144fa8a7241.json",
+    "created_at": "2022-05-12 00:21:32 UTC",
+    "processed_at": "2022-05-12 00:21:33 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=YJ8Ei6AAAAAJ&hl=en",
-    "raw_html_file": "https://serpapi.com/searches/6a9294f6c1bd8ed4/627b016cb7b1cc765b3b01df.html",
-    "total_time_taken": 0.22
+    "raw_html_file": "https://serpapi.com/searches/6a9294f6c1bd8ed4/627c530cc7ad4144fa8a7241.html",
+    "total_time_taken": 1.46
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -226,6 +226,7 @@
       "link": "https://scholar.google.com/citations?user=oyR3ZTYAAAAJ&hl=en",
       "serpapi_link": "https://serpapi.com/search.json?author_id=oyR3ZTYAAAAJ&engine=google_scholar_author&hl=en",
       "author_id": "oyR3ZTYAAAAJ",
+      "affiliations": "Cornell University",
       "email": "Verified email at cornell.edu",
       "thumbnail": "https://scholar.google.com/citations/images/avatar_scholar_56.png"
     },
