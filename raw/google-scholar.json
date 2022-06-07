@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "629d47ed33b236a880bac430",
+    "id": "629e99115b54ef80d6305391",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/6a9294f6c1bd8ed4/629d47ed33b236a880bac430.json",
-    "created_at": "2022-06-06 00:18:53 UTC",
-    "processed_at": "2022-06-06 00:18:53 UTC",
+    "json_endpoint": "https://serpapi.com/searches/6a9294f6c1bd8ed4/629e99115b54ef80d6305391.json",
+    "created_at": "2022-06-07 00:17:21 UTC",
+    "processed_at": "2022-06-07 00:17:21 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=YJ8Ei6AAAAAJ&hl=en",
-    "raw_html_file": "https://serpapi.com/searches/6a9294f6c1bd8ed4/629d47ed33b236a880bac430.html",
-    "total_time_taken": 2.25
+    "raw_html_file": "https://serpapi.com/searches/6a9294f6c1bd8ed4/629e99115b54ef80d6305391.html",
+    "total_time_taken": 0.57
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -41,7 +41,7 @@
       "authors": "Y Vidavsky, MR Buche, ZM Sparrow, X Zhang, SJ Yang, RA DiStasio Jr, ...",
       "publication": "Macromolecules 53 (6), 2021-2030, 2020",
       "cited_by": {
-        "value": 13,
+        "value": 14,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13858321362381021641",
         "serpapi_link": "https://serpapi.com/search.json?cites=13858321362381021641&engine=google_scholar&hl=en",
         "cites_id": "13858321362381021641"
@@ -55,7 +55,7 @@
       "authors": "X Zhang, Y Vidavsky, S Aharonovich, SJ Yang, MR Buche, ...",
       "publication": "Soft Matter 16 (37), 8591-8601, 2020",
       "cited_by": {
-        "value": 11,
+        "value": 12,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12958867339773828326",
         "serpapi_link": "https://serpapi.com/search.json?cites=12958867339773828326&engine=google_scholar&hl=en",
         "cites_id": "12958867339773828326"
@@ -147,8 +147,8 @@
     "table": [
       {
         "citations": {
-          "all": 45,
-          "since_2017": 45
+          "all": 47,
+          "since_2017": 47
         }
       },
       {
@@ -175,7 +175,7 @@
       },
       {
         "year": 2022,
-        "citations": 14
+        "citations": 16
       }
     ]
   },
