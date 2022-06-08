@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "629e99115b54ef80d6305391",
+    "id": "629feb31cca014830ebab20c",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/6a9294f6c1bd8ed4/629e99115b54ef80d6305391.json",
-    "created_at": "2022-06-07 00:17:21 UTC",
-    "processed_at": "2022-06-07 00:17:21 UTC",
+    "json_endpoint": "https://serpapi.com/searches/6a9294f6c1bd8ed4/629feb31cca014830ebab20c.json",
+    "created_at": "2022-06-08 00:20:01 UTC",
+    "processed_at": "2022-06-08 00:20:01 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=YJ8Ei6AAAAAJ&hl=en",
-    "raw_html_file": "https://serpapi.com/searches/6a9294f6c1bd8ed4/629e99115b54ef80d6305391.html",
-    "total_time_taken": 0.57
+    "raw_html_file": "https://serpapi.com/searches/6a9294f6c1bd8ed4/629feb31cca014830ebab20c.html",
+    "total_time_taken": 1.02
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -18,7 +18,7 @@
     "name": "Michael Buche",
     "affiliations": "Sandia National Laboratories",
     "email": "Verified email at sandia.gov",
-    "website": "http://mrbuche.github.io/",
+    "website": "https://mrbuche.com/",
     "interests": [
       {
         "title": "Mechanics",
