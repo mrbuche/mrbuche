@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "62a92671629a01e674aea276",
+    "id": "62aa7750e13508efaf2747c8",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/6a9294f6c1bd8ed4/62a92671629a01e674aea276.json",
-    "created_at": "2022-06-15 00:23:13 UTC",
-    "processed_at": "2022-06-15 00:23:13 UTC",
+    "json_endpoint": "https://serpapi.com/searches/6a9294f6c1bd8ed4/62aa7750e13508efaf2747c8.json",
+    "created_at": "2022-06-16 00:20:32 UTC",
+    "processed_at": "2022-06-16 00:20:32 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=YJ8Ei6AAAAAJ&hl=en",
-    "raw_html_file": "https://serpapi.com/searches/6a9294f6c1bd8ed4/62a92671629a01e674aea276.html",
-    "total_time_taken": 2.2
+    "raw_html_file": "https://serpapi.com/searches/6a9294f6c1bd8ed4/62aa7750e13508efaf2747c8.html",
+    "total_time_taken": 0.22
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -41,7 +41,7 @@
       "authors": "Y Vidavsky, MR Buche, ZM Sparrow, X Zhang, SJ Yang, RA DiStasio Jr, ...",
       "publication": "Macromolecules 53 (6), 2021-2030, 2020",
       "cited_by": {
-        "value": 14,
+        "value": 15,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13858321362381021641",
         "serpapi_link": "https://serpapi.com/search.json?cites=13858321362381021641&engine=google_scholar&hl=en",
         "cites_id": "13858321362381021641"
@@ -69,7 +69,7 @@
       "authors": "P Jayathilaka, T Molley, Y Huang, S Islam, MR Buche, M Silberstein, ...",
       "publication": "Chemical Communications 57, 8484-8487, 2021",
       "cited_by": {
-        "value": 8,
+        "value": 9,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17332904402979970974,8621532533412445333",
         "serpapi_link": "https://serpapi.com/search.json?cites=17332904402979970974%2C8621532533412445333&engine=google_scholar&hl=en",
         "cites_id": "17332904402979970974,8621532533412445333"
@@ -147,8 +147,8 @@
     "table": [
       {
         "citations": {
-          "all": 47,
-          "since_2017": 47
+          "all": 49,
+          "since_2017": 48
         }
       },
       {
@@ -175,7 +175,7 @@
       },
       {
         "year": 2022,
-        "citations": 16
+        "citations": 17
       }
     ]
   },
