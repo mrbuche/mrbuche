@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "62ad1aab9c449d0c556b44df",
+    "id": "62ae6bf336e6a944360bce97",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/6a9294f6c1bd8ed4/62ad1aab9c449d0c556b44df.json",
-    "created_at": "2022-06-18 00:22:03 UTC",
-    "processed_at": "2022-06-18 00:22:03 UTC",
+    "json_endpoint": "https://serpapi.com/searches/6a9294f6c1bd8ed4/62ae6bf336e6a944360bce97.json",
+    "created_at": "2022-06-19 00:21:07 UTC",
+    "processed_at": "2022-06-19 00:21:07 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=YJ8Ei6AAAAAJ&hl=en",
-    "raw_html_file": "https://serpapi.com/searches/6a9294f6c1bd8ed4/62ad1aab9c449d0c556b44df.html",
-    "total_time_taken": 0.73
+    "raw_html_file": "https://serpapi.com/searches/6a9294f6c1bd8ed4/62ae6bf336e6a944360bce97.html",
+    "total_time_taken": 0.7
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -83,7 +83,7 @@
       "authors": "MR Buche, MN Silberstein",
       "publication": "Journal of the Mechanics and Physics of Solids 156, 04593, 2021",
       "cited_by": {
-        "value": 7,
+        "value": 8,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6159047480387821885",
         "serpapi_link": "https://serpapi.com/search.json?cites=6159047480387821885&engine=google_scholar&hl=en",
         "cites_id": "6159047480387821885"
@@ -147,8 +147,8 @@
     "table": [
       {
         "citations": {
-          "all": 49,
-          "since_2017": 48
+          "all": 50,
+          "since_2017": 49
         }
       },
       {
@@ -175,7 +175,7 @@
       },
       {
         "year": 2022,
-        "citations": 17
+        "citations": 18
       }
     ]
   },
