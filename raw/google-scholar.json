@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "62b6551e1d986e623d151f8c",
+    "id": "62b7a79bc7ad410e0deee80d",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/6a9294f6c1bd8ed4/62b6551e1d986e623d151f8c.json",
-    "created_at": "2022-06-25 00:21:50 UTC",
-    "processed_at": "2022-06-25 00:21:50 UTC",
+    "json_endpoint": "https://serpapi.com/searches/6a9294f6c1bd8ed4/62b7a79bc7ad410e0deee80d.json",
+    "created_at": "2022-06-26 00:26:03 UTC",
+    "processed_at": "2022-06-26 00:26:03 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=YJ8Ei6AAAAAJ&hl=en",
-    "raw_html_file": "https://serpapi.com/searches/6a9294f6c1bd8ed4/62b6551e1d986e623d151f8c.html",
-    "total_time_taken": 0.46
+    "raw_html_file": "https://serpapi.com/searches/6a9294f6c1bd8ed4/62b7a79bc7ad410e0deee80d.html",
+    "total_time_taken": 0.48
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -63,6 +63,20 @@
       "year": "2020"
     },
     {
+      "title": "Chain breaking in the statistical mechanical constitutive theory of polymer networks",
+      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YJ8Ei6AAAAAJ&citation_for_view=YJ8Ei6AAAAAJ:eQOLeE2rZwMC",
+      "citation_id": "YJ8Ei6AAAAAJ:eQOLeE2rZwMC",
+      "authors": "MR Buche, MN Silberstein",
+      "publication": "Journal of the Mechanics and Physics of Solids 156, 04593, 2021",
+      "cited_by": {
+        "value": 9,
+        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6159047480387821885",
+        "serpapi_link": "https://serpapi.com/search.json?cites=6159047480387821885&engine=google_scholar&hl=en",
+        "cites_id": "6159047480387821885"
+      },
+      "year": "2021"
+    },
+    {
       "title": "Force-mediated molecule release from double network hydrogels",
       "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YJ8Ei6AAAAAJ&citation_for_view=YJ8Ei6AAAAAJ:YsMSGLbcyi4C",
       "citation_id": "YJ8Ei6AAAAAJ:YsMSGLbcyi4C",
@@ -73,20 +87,6 @@
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17332904402979970974,8621532533412445333",
         "serpapi_link": "https://serpapi.com/search.json?cites=17332904402979970974%2C8621532533412445333&engine=google_scholar&hl=en",
         "cites_id": "17332904402979970974,8621532533412445333"
-      },
-      "year": "2021"
-    },
-    {
-      "title": "Chain breaking in the statistical mechanical constitutive theory of polymer networks",
-      "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=YJ8Ei6AAAAAJ&citation_for_view=YJ8Ei6AAAAAJ:eQOLeE2rZwMC",
-      "citation_id": "YJ8Ei6AAAAAJ:eQOLeE2rZwMC",
-      "authors": "MR Buche, MN Silberstein",
-      "publication": "Journal of the Mechanics and Physics of Solids 156, 04593, 2021",
-      "cited_by": {
-        "value": 8,
-        "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6159047480387821885",
-        "serpapi_link": "https://serpapi.com/search.json?cites=6159047480387821885&engine=google_scholar&hl=en",
-        "cites_id": "6159047480387821885"
       },
       "year": "2021"
     },
@@ -147,8 +147,8 @@
     "table": [
       {
         "citations": {
-          "all": 50,
-          "since_2017": 49
+          "all": 51,
+          "since_2017": 50
         }
       },
       {
@@ -175,7 +175,7 @@
       },
       {
         "year": 2022,
-        "citations": 18
+        "citations": 19
       }
     ]
   },
