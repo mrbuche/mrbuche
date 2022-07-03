@@ -1,13 +1,13 @@
 {
   "search_metadata": {
-    "id": "62bf8fe2cca01437336ca819",
+    "id": "62c0e1b78ccee0f1a57b9c03",
     "status": "Success",
-    "json_endpoint": "https://serpapi.com/searches/6a9294f6c1bd8ed4/62bf8fe2cca01437336ca819.json",
-    "created_at": "2022-07-02 00:22:58 UTC",
-    "processed_at": "2022-07-02 00:22:58 UTC",
+    "json_endpoint": "https://serpapi.com/searches/6a9294f6c1bd8ed4/62c0e1b78ccee0f1a57b9c03.json",
+    "created_at": "2022-07-03 00:24:23 UTC",
+    "processed_at": "2022-07-03 00:24:23 UTC",
     "google_scholar_author_url": "https://scholar.google.com/citations?user=YJ8Ei6AAAAAJ&hl=en",
-    "raw_html_file": "https://serpapi.com/searches/6a9294f6c1bd8ed4/62bf8fe2cca01437336ca819.html",
-    "total_time_taken": 1.73
+    "raw_html_file": "https://serpapi.com/searches/6a9294f6c1bd8ed4/62c0e1b78ccee0f1a57b9c03.html",
+    "total_time_taken": 1.49
   },
   "search_parameters": {
     "engine": "google_scholar_author",
@@ -41,7 +41,7 @@
       "authors": "Y Vidavsky, MR Buche, ZM Sparrow, X Zhang, SJ Yang, RA DiStasio Jr, ...",
       "publication": "Macromolecules 53 (6), 2021-2030, 2020",
       "cited_by": {
-        "value": 15,
+        "value": 16,
         "link": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13858321362381021641",
         "serpapi_link": "https://serpapi.com/search.json?cites=13858321362381021641&engine=google_scholar&hl=en",
         "cites_id": "13858321362381021641"
@@ -147,8 +147,8 @@
     "table": [
       {
         "citations": {
-          "all": 51,
-          "since_2017": 50
+          "all": 52,
+          "since_2017": 51
         }
       },
       {
@@ -175,7 +175,7 @@
       },
       {
         "year": 2022,
-        "citations": 19
+        "citations": 20
       }
     ]
   },
